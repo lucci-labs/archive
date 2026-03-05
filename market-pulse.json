@@ -1,0 +1,47 @@
+[
+    {
+        "id": "narrative",
+        "label": "MARKET_NARRATIVE",
+        "value": "NƠI_TRÚ_ẨN_AN_TOÀN_ĐỊA_CHÍNH_TRỊ",
+        "description": "Bitcoin phục hồi mạnh mẽ vượt 71 nghìn USD khi dòng vốn ETF ổn định chống lại sự hoảng loạn địa chính trị leo thang ở Trung Đông.",
+        "status": "BULLISH",
+        "related_url": "https://www.tradingview.com/news/newsbtc:f0c603575094b:0-bitcoin-price-surges-back-above-71-000-key-reasons-explained/",
+        "updated_at": "2026-03-04T15:00:00Z"
+    },
+    {
+        "id": "sentiment",
+        "label": "MARKET_SENTIMENT",
+        "value": "SỰ_PHÂN_HÓA_TỘT_ĐỘ",
+        "description": "Sự hưng phấn với altcoin của nhà đầu tư nhỏ lẻ chạm đáy, trong khi niềm tin của các tổ chức vào Bitcoin vẫn kiên định tàn nhẫn.",
+        "status": "NEUTRAL",
+        "related_url": "https://www.binance.com/en/square/post/297886451042849",
+        "updated_at": "2026-03-04T15:00:00Z"
+    },
+    {
+        "id": "rotation",
+        "label": "CAPITAL_ROTATION",
+        "value": "CƠ_SỞ_HẠ_TẦNG_TẬP_TRUNG_VÀO_DOANH_THU",
+        "description": "Quỹ đầu tư mạo hiểm từ bỏ các dự án đầu cơ ảo, luân chuyển mạnh mẽ sang stablecoin, lưu ký và các nền tảng tuân thủ nghiêm ngặt.",
+        "status": "BEARISH",
+        "related_url": "https://www.kucoin.com/news/flash/february-crypto-funding-hits-883m-but-deal-count-hits-5-5-year-low",
+        "updated_at": "2026-03-01T15:00:00Z"
+    },
+    {
+        "id": "risk",
+        "label": "RISK_APPETITE",
+        "value": "ÉP_BÁN_KHỐNG_MẠNH_MẼ",
+        "description": "Sự bùng nổ của hợp đồng mở phái sinh dẫn đến việc thanh lý hàng loạt và tàn khốc những người bán khống vĩ mô sai vị thế.",
+        "status": "BULLISH",
+        "related_url": "https://pintu.co.id/en/news/261389-3-reasons-for-btc-eth-xrp-and-ada-to-rally-amid-geopolitical-issues/amp",
+        "updated_at": "2026-03-02T15:00:00Z"
+    },
+    {
+        "id": "institutional",
+        "label": "INSTITUTIONAL_FOCUS",
+        "value": "TÍCH_LŨY_ETF_KHÔNG_NGỪNG",
+        "description": "Các quỹ ETF Bitcoin giao ngay hấp thụ hơn 1,5 tỷ USD trong năm ngày, hoàn toàn phớt lờ sự biến động kinh tế vĩ mô rộng lớn.",
+        "status": "BULLISH",
+        "related_url": "https://www.kucoin.com/news/flash/bitcoin-etfs-attract-1-5-billion-inflows-amid-price-drop",
+        "updated_at": "2026-03-03T15:00:00Z"
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "slug": "onchain-ai-agents",
+        "title": "Onchain AI Agents: Từ Chatbot đến Quản lý Tài sản Tự động",
+        "description": "Sự hội tụ của AI và blockchain đang tạo ra một mô hình mới về các tác nhân tự chủ có thể quản lý tài sản, thực hiện giao dịch và tương tác với thế giới kỹ thuật số. Báo cáo này khám phá tình trạng hiện tại của các tác nhân AI trên chuỗi, những thách thức kỹ thuật mà chúng phải đối mặt và các cơ hội kinh tế mà chúng mang lại.",
+        "date": "2026-03-05",
+        "categories": [
+            "Agentic Finance",
+            "DeFi",
+            "AI Infrastructure",
+            "Blockchain"
+        ],
+        "readTime": 15,
+        "isPremium": false,
+        "coverImage": "https://picsum.photos/seed/risechain-the-gigagas-execution/800/450"
+    },
+    {
+        "slug": "risechain-the-gigagas-execution-era",
+        "title": "Ưu thế Kiến trúc trong Kỷ nguyên Gigagas: Phân tích Chiến lược về Risechain và Thực thi Song song",
+        "description": "Một cái nhìn sâu sắc về cách risechain đang định hình hệ sinh thái crypto, và sự tích lũy của cá voi đang báo hiệu một sự bứt phá lớn.",
+        "date": "2026-03-04",
+        "categories": [
+            "RISE",
+            "parallel-execution",
+            "l2"
+        ],
+        "readTime": 12,
+        "isPremium": false,
+        "coverImage": "https://picsum.photos/seed/risechain-the-gigagas-execution/800/450"
+    }
+]

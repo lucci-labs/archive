@@ -1,14 +1,27 @@
 [
     {
+        "slug": "q1-2026-crypto-macro",
+        "title": "The Institutionalization of Digital Assets: Q1 2026 Crypto Macro and Quantitative Outlook",
+        "description": "Bước sang quý 1 năm 2026, thị trường tiền số chính thức bước vào giai đoạn hội nhập sâu sắc với cấu trúc tài chính toàn cầu, từ một hệ sinh thái giao dịch bán lẻ thuần túy trở thành một lớp tài sản có chất lượng tổ chức chuẩn mực. Chu kỳ dòng vốn tổ chức đã thay thế chu kỳ halving Bitcoin bốn năm để trở thành yếu tố hàng đầu kiểm soát biến động giá và thanh khoản thị trường.",
+        "date": "2026-03-05",
+        "categories": [
+            "Crypto Market",
+            "Macro",
+            "Institutional"
+        ],
+        "readTime": 20,
+        "isPremium": false,
+        "coverImage": "https://picsum.photos/seed/risechain-the-gigagas-execution/800/450"
+    },
+    {
         "slug": "onchain-ai-agents",
         "title": "Onchain AI Agents: Từ Chatbot đến Quản lý Tài sản Tự động",
         "description": "Sự hội tụ của AI và blockchain đang tạo ra một mô hình mới về các tác nhân tự chủ có thể quản lý tài sản, thực hiện giao dịch và tương tác với thế giới kỹ thuật số. Báo cáo này khám phá tình trạng hiện tại của các tác nhân AI trên chuỗi, những thách thức kỹ thuật mà chúng phải đối mặt và các cơ hội kinh tế mà chúng mang lại.",
         "date": "2026-03-05",
         "categories": [
-            "Agentic Finance",
             "DeFi",
-            "AI Infrastructure",
-            "Blockchain"
+            "AI",
+            "Agentic Finance"
         ],
         "readTime": 15,
         "isPremium": false,
@@ -20,11 +33,11 @@
         "description": "Một cái nhìn sâu sắc về cách risechain đang định hình hệ sinh thái crypto, và sự tích lũy của cá voi đang báo hiệu một sự bứt phá lớn.",
         "date": "2026-03-04",
         "categories": [
-            "RISE",
-            "parallel-execution",
-            "l2"
+            "Blockchain",
+            "Layer 2",
+            "Ethereum"
         ],
-        "readTime": 12,
+        "readTime": 18,
         "isPremium": false,
         "coverImage": "https://picsum.photos/seed/risechain-the-gigagas-execution/800/450"
     }

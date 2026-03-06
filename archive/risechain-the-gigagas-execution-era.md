@@ -1,8 +1,6 @@
 <Header title="Kiểm Soát Kiến Trúc trong Kỷ Nguyên Gigagas: Phân Tích Chiến Lược Risechain và Thực Thi Song Song" categories={["Blockchain", "Layer 2", "Ethereum"]} date="2026-03-05" readTime={18} />
 
-<AlphaBox>
-Risechain tái cấu trúc môi trường thực thi Ethereum bằng cơ chế pevm song song và hệ thống lưu trữ tùy biến RiseDB, vượt qua nút thắt cổ chai thực thi tuần tự của EVM bằng cách đạt hiệu năng 100,000 TPS cùng độ trễ thấp dưới 10ms. Mô hình Based Sequencing khắc phục rủi ro tập trung trên sequencer truyền thống, đảm bảo đồng thuận an toàn theo bộ đề xuất Ethereum L1, đồng thời giữ được sự hợp nhất kinh tế lâu dài trong hệ sinh thái Ethereum. Đây là ưu thế cạnh tranh chủ chốt của Risechain trước Monad và MegaETH trong cuộc đua hạ tầng Layer 2 thực thi cao. Tuy nhiên, nguy cơ lỗi thời do điều kiện đua tranh phức tạp và rủi ro tập trung tại đầu Gateway vẫn là điểm cần theo dõi nghiêm ngặt trong giai đoạn Mainnet Genesis sắp tới.
-</AlphaBox>
+<AlphaBox content="Risechain tái cấu trúc môi trường thực thi Ethereum bằng cơ chế pevm song song và hệ thống lưu trữ tùy biến RiseDB, vượt qua nút thắt cổ chai thực thi tuần tự của EVM bằng cách đạt hiệu năng 100,000 TPS cùng độ trễ thấp dưới 10ms. Mô hình Based Sequencing khắc phục rủi ro tập trung trên sequencer truyền thống, đảm bảo đồng thuận an toàn theo bộ đề xuất Ethereum L1, đồng thời giữ được sự hợp nhất kinh tế lâu dài trong hệ sinh thái Ethereum. Đây là ưu thế cạnh tranh chủ chốt của Risechain trước Monad và MegaETH trong cuộc đua hạ tầng Layer 2 thực thi cao. Tuy nhiên, nguy cơ lỗi thời do điều kiện đua tranh phức tạp và rủi ro tập trung tại đầu Gateway vẫn là điểm cần theo dõi nghiêm ngặt trong giai đoạn Mainnet Genesis sắp tới." />
 
 ### Nút Thắt Thực Thi Ethereum: Từ Megagas tới Gigagas
 

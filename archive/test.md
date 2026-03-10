@@ -1,4 +1,4 @@
-<Header title="Phân tích Chiến lược Thị trường Tài sản Kỹ thuật số 2026" categories={["Crypto","Đầu tư","Phân tích thị trường"]} date="2026-03-15" readTime={15} />
+<Header title="Chiến lược Thị trường Tài sản Kỹ thuật số 2026" categories={["Crypto","Đầu tư","Phân tích thị trường"]} date="2026-03-15" readTime={15} />
 
 <AlphaBox content="Năm 2026 ghi nhận sự định hình trưởng thành của thị trường tài sản kỹ thuật số với vị thế 'Bình minh kỷ nguyên định chế'. Bitcoin tiếp tục củng cố vai trò tài sản dự trữ trong bối cảnh nợ công toàn cầu tăng cao, Ethereum chuyển mình mạnh mẽ qua các bản nâng cấp kỹ thuật, còn Solana dẫn đầu về tốc độ và hiệu suất. Chiến lược đầu tư lý tưởng năm 2026 nhấn mạnh xây dựng danh mục đa dạng theo rủi ro và tiềm năng tăng trưởng, kết hợp với kỷ luật tích luỹ và quản lý rủi ro nghiêm ngặt." />
 
@@ -7,6 +7,8 @@
 Thị trường tài sản kỹ thuật số không còn là sân chơi tự phát, biến động vô căn cứ mà đã dần trở thành một phân khúc tài sản thay thế quy mô trung bình, được định chế hóa và tích hợp sâu vào hệ sinh thái tài chính toàn cầu [Grayscale](https://research.grayscale.com/reports/2026-digital-asset-outlook-dawn-of-the-institutional-era). Giai đoạn "Bình minh của kỷ nguyên định chế" này được thúc đẩy bởi nhu cầu vĩ mô đối với các kho lưu trữ giá trị thay thế và khung pháp lý rõ ràng hơn.
 
 Mô hình chu kỳ 4 năm truyền thống của Bitcoin không còn giữ nguyên ý nghĩa khi dòng vốn thực từ các quỹ ETF và các ngân hàng trung ương đóng vai trò chủ đạo. Mặc dù thị trường đang ở tâm lý "Sợ hãi cực độ”, dữ liệu on-chain và vĩ mô cho thấy đây là thời điểm tích lũy chiến lược để đón đợi "siêu chu kỳ" mới [CSFX](https://www.capitalstreetfx.com/crypto-market-analysis-march-6-2026-btc-eth-xrp-sol-technical-outlook-nfp-impact/).
+
+<img src="https://www.capitalstreetfx.com/wp-content/uploads/2026/03/crypto-market-sentiment-march-2026.png" alt="Crypto Market Sentiment March 2026" />
 
 ---
 

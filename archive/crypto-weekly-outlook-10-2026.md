@@ -1,4 +1,4 @@
-<Header title="Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 10 - 2026" categories={["Weekly", "Blockchain", "Bitcoin", "Ethereum", "ETF", "Địa chính trị"]} date="2026-03-07" readTime={15} />
+<Header title="Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 10 - 2026" categories={["Market", "Weekly Outlook"]} date="2026-03-07" readTime={15} />
 
 <AlphaBox content="Tuần lễ 2-7/3/2026 ghi nhận sự chuyển biến phức tạp của thị trường tài sản kỹ thuật số trong bối cảnh địa chính trị căng thẳng tại Trung Đông và dữ liệu kinh tế Hoa Kỳ gây sốc. Bitcoin bứt phá nhờ dòng tiền tổ chức ETF tích cực, xác nhận vị thế 'vàng kỹ thuật số'. Dữ liệu việc làm Mỹ yếu kém tạo ra kịch bản khó lường cho lộ trình lãi suất Fed, biến động thị trường tiếp diễn. Ethereum và altcoin chịu áp lực, trong khi các động thái pháp lý toàn cầu mở ra xu hướng quản lý mới cho crypto." />
 

@@ -1,4 +1,4 @@
-<Header title="On-chain AI Agents: Từ Chatbots đến Quản lý Tài sản Tự động" categories={["DeFi", "AI", "Agentic Finance"]} date="2026-03-05" readTime={15} />
+<Header title="On-chain AI Agents: Từ Chatbots đến Quản lý Tài sản Tự động" categories={["Project Analysis", "Technology"]} date="2026-03-05" readTime={15} />
 
 <AlphaBox content="Sự chuyển mình của hệ sinh thái tiền điện tử sang nền kinh tế do máy móc điều khiển đánh dấu bước ngoặt kiến trúc quan trọng nhất kể từ khi smart contract ra đời. Từ những lớp giao diện chatbot đơn giản dựa trên Large Language Models (LLM), đến đầu năm 2026, thị trường đã phát triển thành các tác nhân AI tự trị hoàn chỉnh, có khả năng quản lý tài sản, triển khai chiến lược DeFi phức tạp đa chuỗi và sở hữu định danh on-chain tiêu chuẩn ERC-8004. Tuy nhiên, sự tăng trưởng này bị bóp nghẹt bởi chi phí hạ tầng và khó khăn trong việc đạt "độ cuối cứng" cho các giao dịch tự trị giá trị cao. [0G](https://0g.ai/blog/agentic-ai-market-infra-2026)" />
 

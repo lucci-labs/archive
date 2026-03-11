@@ -1,4 +1,4 @@
-<Header title="Tác động của Chỉ số Vĩ mô tới Thị trường Crypto trong Kỷ nguyên Tài chính Mới" categories={["marcro", "crypto"]} date="2026-03-11" readTime={15} />
+<Header title="Tác động của Chỉ số Vĩ mô tới Thị trường Crypto trong Kỷ nguyên Tài chính Mới" categories={["Macro", "Market"]} date="2026-03-11" readTime={15} />
 
 <AlphaBox content="Thị trường tiền điện tử đã chuyển đổi từ phân khúc thử nghiệm sang lớp tài sản cấp tổ chức với cơ chế truyền dẫn các yếu tố vĩ mô ngày càng phức tạp và tương tác hai chiều với hệ thống tài chính truyền thống. Bitcoin và DeFi trở nên nhạy cảm đặc biệt với các biến số GDP, CPI, lãi suất FED và cung tiền M2, tạo áp lực trực tiếp lên giá, thanh khoản và kỳ vọng của nhà đầu tư. Sự tham gia gia tăng của các tổ chức tài chính siết chặt phản ứng thị trường vào các khung quản trị rủi ro vĩ mô, làm giảm biến động và củng cố xu hướng phòng hộ tài sản trong bối cảnh nợ công kỷ lục và thâm hụt ngân sách dai dẳng." />
 

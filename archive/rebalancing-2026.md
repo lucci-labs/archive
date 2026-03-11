@@ -1,4 +1,4 @@
-<Header title="Chiến Lược Tối Ưu Hóa Danh Mục Đầu Tư Crypto tại Việt Nam 2026: So Sánh Rebalancing và Dollar-Cost Averaging Dưới Luật Định Mới" categories={["Academy", "Crypto Investment"]} date="2026-03-09" readTime={12} />
+<Header title="Chiến Lược Tối Ưu Hóa Danh Mục Đầu Tư Crypto tại Việt Nam 2026: So Sánh Rebalancing và Dollar-Cost Averaging Dưới Luật Định Mới" categories={["Academy", "Macro"]} date="2026-03-09" readTime={12} />
 
 <AlphaBox content="Việc hợp pháp hóa tài sản mã hóa tại Việt Nam năm 2026 đã tạo ra bối cảnh pháp lý minh bạch, thúc đẩy áp dụng các chiến lược đầu tư có hệ thống như rebalancing và Dollar-Cost Averaging (DCA). Bài viết phân tích sâu sắc hiệu quả của từng phương pháp trong quản lý rủi ro và tối ưu hóa lợi nhuận, đồng thời tích hợp vào khung pháp lý mới nhằm định hướng chiến lược đầu tư cá nhân phù hợp với biến động và chi phí giao dịch đặc thù thị trường Việt Nam." />
 

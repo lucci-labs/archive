@@ -1,47 +1,47 @@
 [
-    {
-        "id": "narrative",
-        "label": "MARKET_NARRATIVE",
-        "value": "ĐẢO_CHIỀU_BIẾN_ĐỘNG_TỪ_ETF",
-        "description": "Dòng vốn tổ chức dẫn dắt đà tâm lý khi các quỹ ETF chuyển từ rút ròng sang gom hàng.",
-        "status": "NEUTRAL",
-        "related_url": "https://www.tradingview.com/news/coinpedia:3cd4ebd88094b:0-bitcoin-etf-flows-flip-green-after-record-8-9b-drawdown-why-is-the-money-coming-back/",
-        "updated_at": "2026-03-07T06:30:00Z"
-    },
-    {
-        "id": "sentiment",
-        "label": "MARKET_SENTIMENT",
-        "value": "SỢ_HÃI_TỘT_ĐỘ_VÀ_TÍCH_LŨY",
-        "description": "Chỉ số Sợ hãi & Tham lam duy trì ở mức 19, cho thấy sự hoài nghi sâu sắc.",
-        "status": "BEARISH",
-        "related_url": "https://www.capitalstreetfx.com/crypto-market-analysis-march-5-2026-daily-intelligence-report/",
-        "updated_at": "2026-03-07T06:30:00Z"
-    },
-    {
-        "id": "rotation",
-        "label": "CAPITAL_ROTATION",
-        "value": "ƯU_TIÊN_HẠ_TẦNG_RWA",
-        "description": "Dòng vốn dịch chuyển sang tài sản thực và oracle khi altcoin đầu cơ chạm đáy chu kỳ.",
-        "status": "BULLISH",
-        "related_url": "https://pintu.co.id/en/news/260845-3-crypto-rwas-potential-march-2026",
-        "updated_at": "2026-03-07T06:30:00Z"
-    },
-    {
-        "id": "risk",
-        "label": "RISK_APPETITE",
-        "value": "THANH_LÝ_VÀ_GIẢM_ĐÒN_BẨY",
-        "description": "Tỉ lệ funding âm gây ra thanh lý 430 triệu USD, buộc phe bán khống phải mua lại.",
-        "status": "NEUTRAL",
-        "related_url": "https://investingnews.com/cryptocurrency-market-recap-04032026-clarity-act/",
-        "updated_at": "2026-03-07T06:30:00Z"
-    },
-    {
-        "id": "institutional",
-        "label": "INSTITUTIONAL_FOCUS",
-        "value": "PHÁP_LÝ_VÀ_SỐ_HÓA_TÀI_SẢN",
-        "description": "Hợp tác NYSE-OKX và đạo luật CLARITY thúc đẩy số hóa cổ phiếu trên chuỗi.",
-        "status": "BULLISH",
-        "related_url": "https://www.vietnam.vn/en/thi-truong-tien-so-hom-nay-6-3-dong-thai-moi-cua-san-chung-khoan-lon-nhat-the-gioi",
-        "updated_at": "2026-03-07T06:30:00Z"
-    }
+  {
+    "id": "narrative",
+    "label": "MARKET_NARRATIVE",
+    "value": "DỰ BÁO GIÁ BITCOIN LÊN 74.549 USD",
+    "description": "Dự báo giá Bitcoin đạt 74.549 USD vào ngày 14 tháng 3 năm 2026.",
+    "status": "BULLISH",
+    "related_url": "https://coincodex.com/article/82768/bitcoin-prediction-march-09-2026/",
+    "updated_at": "2026-03-09T00:00:00Z"
+  },
+  {
+    "id": "sentiment",
+    "label": "MARKET_SENTIMENT",
+    "value": "CẢM XÚC THỊ TRƯỜNG: SỢ HÃI CỰC ĐOAN",
+    "description": "Chỉ số Sợ Hãi & Tham Lam ở mức 12, cho thấy tâm lý thị trường cực kỳ sợ hãi.",
+    "status": "BEARISH",
+    "related_url": "https://coin360.com/news/crypto-weekly-update-mar1-mar7-2026",
+    "updated_at": "2026-03-07T00:00:00Z"
+  },
+  {
+    "id": "rotation",
+    "label": "CAPITAL_ROTATION",
+    "value": "DÒNG VỐN CHẢY VÀO BITCOIN VÀ ETHEREUM",
+    "description": "Dòng vốn chảy vào Bitcoin và Ethereum, với Bitcoin ETF đạt 569 triệu USD trong tuần qua.",
+    "status": "BULLISH",
+    "related_url": "https://crypto.com/en-es/market-updates/crypto-market-pulse-weekly-2026-03-09",
+    "updated_at": "2026-03-09T00:00:00Z"
+  },
+  {
+    "id": "risk",
+    "label": "RISK_APPETITE",
+    "value": "MỨC ĐỘ RỦI RO: THẤP",
+    "description": "Thị trường thể hiện mức độ rủi ro thấp, với chỉ số Sợ Hãi & Tham Lam ở mức 12.",
+    "status": "BEARISH",
+    "related_url": "https://coin360.com/news/crypto-weekly-update-mar1-mar7-2026",
+    "updated_at": "2026-03-07T00:00:00Z"
+  },
+  {
+    "id": "institutional",
+    "label": "INSTITUTIONAL_FOCUS",
+    "value": "HOẠT ĐỘNG CỦA CÁC QUỸ ĐẦU TƯ: TĂNG CƯỜNG",
+    "description": "Các quỹ đầu tư tổ chức tăng cường hoạt động, với dòng vốn chảy vào Bitcoin ETF đạt 569 triệu USD trong tuần qua.",
+    "status": "BULLISH",
+    "related_url": "https://crypto.com/en-es/market-updates/crypto-market-pulse-weekly-2026-03-09",
+    "updated_at": "2026-03-09T00:00:00Z"
+  }
 ]

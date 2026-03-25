@@ -1,92 +1,128 @@
 [
-    {
-        "slug": "crypto-weekly-outlook-12-2026",
-        "title": "Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 12 - 2026.",
-        "description": "Tuần lễ 14-21/3/2026 đánh dấu bước ngoặt với sự dịch chuyển cơ bản về cấu trúc pháp lý và dòng vốn tổ chức trên thị trường tài sản kỹ thuật số toàn cầu. Bitcoin tiếp tục thử thách ngưỡng kháng cự 74.000 USD trong bối cảnh khung quy chế mới từ SEC và CFTC cùng sự phục hồi mạnh mẽ của các quỹ ETF kích hoạt đà tăng giá.",
-        "date": "2026-03-21",
-        "categories": ["Market", "Weekly Outlook"],
-        "readTime": 15,
-        "isPremium": false,
-        "coverImage": "https://picsum.photos/seed/crypto-weekly-outlook-12-2026/800/450"
-    },
-    {
-        "slug": "crypto-weekly-outlook-11-2026",
-        "title": "Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 11 - 2026.",
-        "description": "Tuần giao dịch từ 7 đến 14/3/2026 chứng kiến sự phân kỳ rõ ràng giữa thị trường cổ phiếu công nghệ suy yếu dưới áp lực địa chính trị và giá dầu tăng cao, trong khi Bitcoin và các tài sản kỹ thuật số phục hồi ấn tượng.",
-        "date": "2026-03-14",
-        "categories": ["Market", "Weekly Outlook"],
-        "readTime": 15,
-        "isPremium": false,
-        "coverImage": "https://picsum.photos/seed/crypto-weekly-outlook-11-2026/800/450"
-    },
-    {
-        "slug": "macro-economics-impact-crypto",
-        "title": "Tác động của Chỉ số Vĩ mô tới Thị trường Crypto trong Kỷ nguyên Tài chính Mới.",
-        "description": "Thị trường tiền điện tử đã chuyển đổi từ phân khúc thử nghiệm sang lớp tài sản cấp tổ chức với cơ chế truyền dẫn các yếu tố vĩ mô ngày càng phức tạp và tương tác hai chiều với hệ thống tài chính truyền thống.",
-        "date": "2026-03-11",
-        "categories": ["Macro", "Market"],
-        "readTime": 15,
-        "isPremium": false,
-        "coverImage": "https://picsum.photos/seed/macro-economics-impact-crypto/800/450"
-    },
-    {
-        "slug": "crypto-strategy-2026",
-        "title": "Phân tích chiến lược thị trường tài sản kỹ thuật số 2026.",
-        "description": "Năm 2026 đánh dấu giai đoạn chuyển mình quan trọng của thị trường tài sản kỹ thuật số khi nó trở thành phân khúc tài sản thay thế quy mô trung bình, được định chế hóa, và hội nhập sâu rộng vào hệ thống tài chính toàn cầu.",
-        "date": "2026-03-10",
-        "categories": ["Market"],
-        "readTime": 18,
-        "isPremium": false,
-        "coverImage": "https://picsum.photos/seed/crypto-strategy-2026/800/450"
-    },
-    {
-        "slug": "rebalancing-2026",
-        "title": "Chiến Lược Tối Ưu Hóa Danh Mục Đầu Tư Crypto tại Việt Nam 2026: So Sánh Rebalancing và Dollar-Cost Averaging Dưới Luật Định Mới.",
-        "description": "Việc hợp pháp hóa tài sản mã hóa tại Việt Nam năm 2026 đã tạo ra bối cảnh pháp lý minh bạch, thúc đẩy áp dụng các chiến lược đầu tư có hệ thống như rebalancing và Dollar-Cost Averaging (DCA)",
-        "date": "2026-03-09",
-        "categories": ["Academy", "Macro"],
-        "readTime": 12,
-        "isPremium": false,
-        "coverImage": "https://picsum.photos/seed/rebalancing-2026/800/450"
-    },
-    {
-        "slug": "crypto-weekly-outlook-10-2026",
-        "title": "Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 10 - 2026.",
-        "description": "Tuần lễ 2-7/3/2026 ghi nhận sự chuyển biến phức tạp của thị trường tài sản kỹ thuật số trong bối cảnh địa chính trị căng thẳng tại Trung Đông và dữ liệu kinh tế Hoa Kỳ gây sốc. Bitcoin bứt phá nhờ dòng tiền tổ chức ETF tích cực, xác nhận vị thế 'vàng kỹ thuật số'.",
-        "date": "2026-03-07",
-        "categories": ["Market", "Weekly Outlook"],
-        "readTime": 15,
-        "isPremium": false,
-        "coverImage": "https://picsum.photos/seed/crypto-weekly-outlook-10-2026/800/450"
-    },
-    {
-        "slug": "q1-2026-crypto-macro",
-        "title": "Sự tham gia của các tổ chức vào tài sản số: Dự báo vĩ mô thị trường Crypto Q1 2026.",
-        "description": "Bước sang quý 1 năm 2026, thị trường tiền số chính thức bước vào giai đoạn hội nhập sâu sắc với cấu trúc tài chính toàn cầu, từ một hệ sinh thái giao dịch bán lẻ thuần túy trở thành một lớp tài sản có chất lượng tổ chức chuẩn mực. Chu kỳ dòng vốn tổ chức đã thay thế chu kỳ halving Bitcoin bốn năm để trở thành yếu tố hàng đầu kiểm soát biến động giá và thanh khoản thị trường.",
-        "date": "2026-03-05",
-        "categories": ["Macro", "Market"],
-        "readTime": 20,
-        "isPremium": false,
-        "coverImage": "https://picsum.photos/seed/q1-2026-crypto-macro/800/450"
-    },
-    {
-        "slug": "onchain-ai-agents",
-        "title": "Onchain AI Agents: Từ Chatbot đến Quản lý Tài sản Tự động",
-        "description": "Sự hội tụ của AI và blockchain đang tạo ra một mô hình mới về các tác nhân tự chủ có thể quản lý tài sản, thực hiện giao dịch và tương tác với thế giới kỹ thuật số. Báo cáo này khám phá tình trạng hiện tại của các tác nhân AI trên chuỗi, những thách thức kỹ thuật mà chúng phải đối mặt và các cơ hội kinh tế mà chúng mang lại.",
-        "date": "2026-03-05",
-        "categories": ["Project Analysis", "Technology"],
-        "readTime": 15,
-        "isPremium": false,
-        "coverImage": "https://picsum.photos/seed/onchain-ai-agents/800/450"
-    },
-    {
-        "slug": "risechain-the-gigagas-execution-era",
-        "title": "Ưu thế Kiến trúc trong Kỷ nguyên Gigagas: Phân tích Chiến lược về Risechain và Thực thi Song song",
-        "description": "Một cái nhìn sâu sắc về cách risechain đang định hình hệ sinh thái crypto, và sự tích lũy của cá voi đang báo hiệu một sự bứt phá lớn.",
-        "date": "2026-03-04",
-        "categories": ["Project Analysis", "Technology"],
-        "readTime": 18,
-        "isPremium": false,
-        "coverImage": "https://picsum.photos/seed/risechain-the-gigagas-execution/800/450"
-    }
+  {
+    "slug": "crypto-weekly-outlook-12-2026",
+    "title": "Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 12 - 2026.",
+    "description": "Tuần lễ 14-21/3/2026 đánh dấu bước ngoặt với sự dịch chuyển cơ bản về cấu trúc pháp lý và dòng vốn tổ chức trên thị trường tài sản kỹ thuật số toàn cầu. Bitcoin tiếp tục thử thách ngưỡng kháng cự 74.000 USD trong bối cảnh khung quy chế mới từ SEC và CFTC cùng sự phục hồi mạnh mẽ của các quỹ ETF kích hoạt đà tăng giá.",
+    "date": "2026-03-21",
+    "categories": [
+      "Market",
+      "Weekly Outlook"
+    ],
+    "readTime": 15,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/crypto-weekly-outlook-12-2026/800/450"
+  },
+  {
+    "slug": "crypto-weekly-outlook-11-2026",
+    "title": "Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 11 - 2026.",
+    "description": "Tuần giao dịch từ 7 đến 14/3/2026 chứng kiến sự phân kỳ rõ ràng giữa thị trường cổ phiếu công nghệ suy yếu dưới áp lực địa chính trị và giá dầu tăng cao, trong khi Bitcoin và các tài sản kỹ thuật số phục hồi ấn tượng.",
+    "date": "2026-03-14",
+    "categories": [
+      "Market",
+      "Weekly Outlook"
+    ],
+    "readTime": 15,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/crypto-weekly-outlook-11-2026/800/450"
+  },
+  {
+    "slug": "macro-economics-impact-crypto",
+    "title": "Tác động của Chỉ số Vĩ mô tới Thị trường Crypto trong Kỷ nguyên Tài chính Mới.",
+    "description": "Thị trường tiền điện tử đã chuyển đổi từ phân khúc thử nghiệm sang lớp tài sản cấp tổ chức với cơ chế truyền dẫn các yếu tố vĩ mô ngày càng phức tạp và tương tác hai chiều với hệ thống tài chính truyền thống.",
+    "date": "2026-03-11",
+    "categories": [
+      "Macro",
+      "Market"
+    ],
+    "readTime": 15,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/macro-economics-impact-crypto/800/450"
+  },
+  {
+    "slug": "crypto-strategy-2026",
+    "title": "Phân tích chiến lược thị trường tài sản kỹ thuật số 2026.",
+    "description": "Năm 2026 đánh dấu giai đoạn chuyển mình quan trọng của thị trường tài sản kỹ thuật số khi nó trở thành phân khúc tài sản thay thế quy mô trung bình, được định chế hóa, và hội nhập sâu rộng vào hệ thống tài chính toàn cầu.",
+    "date": "2026-03-10",
+    "categories": [
+      "Market"
+    ],
+    "readTime": 18,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/crypto-strategy-2026/800/450"
+  },
+  {
+    "slug": "rebalancing-2026",
+    "title": "Chiến Lược Tối Ưu Hóa Danh Mục Đầu Tư Crypto tại Việt Nam 2026: So Sánh Rebalancing và Dollar-Cost Averaging Dưới Luật Định Mới.",
+    "description": "Việc hợp pháp hóa tài sản mã hóa tại Việt Nam năm 2026 đã tạo ra bối cảnh pháp lý minh bạch, thúc đẩy áp dụng các chiến lược đầu tư có hệ thống như rebalancing và Dollar-Cost Averaging (DCA)",
+    "date": "2026-03-09",
+    "categories": [
+      "Academy",
+      "Macro"
+    ],
+    "readTime": 12,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/rebalancing-2026/800/450"
+  },
+  {
+    "slug": "crypto-weekly-outlook-10-2026",
+    "title": "Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 10 - 2026.",
+    "description": "Tuần lễ 2-7/3/2026 ghi nhận sự chuyển biến phức tạp của thị trường tài sản kỹ thuật số trong bối cảnh địa chính trị căng thẳng tại Trung Đông và dữ liệu kinh tế Hoa Kỳ gây sốc. Bitcoin bứt phá nhờ dòng tiền tổ chức ETF tích cực, xác nhận vị thế 'vàng kỹ thuật số'.",
+    "date": "2026-03-07",
+    "categories": [
+      "Market",
+      "Weekly Outlook"
+    ],
+    "readTime": 15,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/crypto-weekly-outlook-10-2026/800/450"
+  },
+  {
+    "slug": "q1-2026-crypto-macro",
+    "title": "Sự tham gia của các tổ chức vào tài sản số: Dự báo vĩ mô thị trường Crypto Q1 2026.",
+    "description": "Bước sang quý 1 năm 2026, thị trường tiền số chính thức bước vào giai đoạn hội nhập sâu sắc với cấu trúc tài chính toàn cầu, từ một hệ sinh thái giao dịch bán lẻ thuần túy trở thành một lớp tài sản có chất lượng tổ chức chuẩn mực. Chu kỳ dòng vốn tổ chức đã thay thế chu kỳ halving Bitcoin bốn năm để trở thành yếu tố hàng đầu kiểm soát biến động giá và thanh khoản thị trường.",
+    "date": "2026-03-05",
+    "categories": [
+      "Macro",
+      "Market"
+    ],
+    "readTime": 20,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/q1-2026-crypto-macro/800/450"
+  },
+  {
+    "slug": "onchain-ai-agents",
+    "title": "Onchain AI Agents: Từ Chatbot đến Quản lý Tài sản Tự động",
+    "description": "Sự hội tụ của AI và blockchain đang tạo ra một mô hình mới về các tác nhân tự chủ có thể quản lý tài sản, thực hiện giao dịch và tương tác với thế giới kỹ thuật số. Báo cáo này khám phá tình trạng hiện tại của các tác nhân AI trên chuỗi, những thách thức kỹ thuật mà chúng phải đối mặt và các cơ hội kinh tế mà chúng mang lại.",
+    "date": "2026-03-05",
+    "categories": [
+      "Project Analysis",
+      "Technology"
+    ],
+    "readTime": 15,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/onchain-ai-agents/800/450"
+  },
+  {
+    "slug": "risechain-the-gigagas-execution-era",
+    "title": "Ưu thế Kiến trúc trong Kỷ nguyên Gigagas: Phân tích Chiến lược về Risechain và Thực thi Song song",
+    "description": "Một cái nhìn sâu sắc về cách risechain đang định hình hệ sinh thái crypto, và sự tích lũy của cá voi đang báo hiệu một sự bứt phá lớn.",
+    "date": "2026-03-04",
+    "categories": [
+      "Project Analysis",
+      "Technology"
+    ],
+    "readTime": 18,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/risechain-the-gigagas-execution/800/450"
+  },
+  {
+    "title": "Agent AI On-Chain: Từ Chatbot đến Quản Lý Tài Sản Tự Động",
+    "slug": "agent-ai-on-chain-t-chatbot-n-qun-l-ti-sn-t-ng",
+    "categories": [
+      "Market"
+    ],
+    "date": "2026-03-25",
+    "readTime": 5,
+    "path": "archive/agent-ai-on-chain-t-chatbot-n-qun-l-ti-sn-t-ng.md"
+  }
 ]

@@ -1,5 +1,18 @@
 [
   {
+    "title": "Hệ thống Mạng lưới Canton: Kiến trúc Tài chính Đồng bộ và Kỷ nguyên Token hóa Tài sản Thực",
+    "slug": "canton-network",
+    "description": "Canton Network là nỗ lực kiến tạo một lớp hạ tầng *public permissioned* dành cho TradFi, giải quyết bài toán bất tương thích giữa quyền riêng tư doanh nghiệp và tính mạng lưới công khai bằng cơ chế đồng bộ hóa phân vùng (partitioned synchronization). Mạng được hậu thuẫn bởi vốn chiến lược quy mô lớn và quan hệ đối tác với DTCC, Goldman Sachs, Visa và các hạ tầng thị trường — tạo ra đường dẫn trực tiếp để kéo hàng nghìn tỷ USD RWA on‑chain. Tuy nhiên, quy mô niêm yết token, cơ chế Burn‑and‑Mint và phụ thuộc vào mô hình vận hành permissioned tạo ra các rủi ro thanh khoản, tập trung quyền lực vận hành và các nút thắt pháp lý mà nhà đầu tư tổ chức cần đánh giá kỹ lưỡng trước khi triển khai vị thế lớn.",
+    "categories": [
+      "Project Analysis",
+      "Academy"
+    ],
+    "date": "2026-04-02",
+    "readTime": 28,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/canton-network/800/450"
+  },
+  {
     "title": "Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 13 - 2026",
     "slug": "crypto-weekly-outlook-13-2026",
     "description": "Tuần 21–29/03/2026 là một điểm uốn: địa chính trị suy giảm tạm thời, khung pháp lý Mỹ rõ ràng hơn và dòng vốn ETF quay lại đã phối hợp tạo nên một pha phân phối có chọn lọc—cá voi chốt lời tại vùng $74k trong khi các quỹ ETF mua có hệ thống; cấu trúc vĩ mô vẫn gây áp lực ngắn hạn (DXY cao, lợi suất 10 năm gần 5%), nhưng on‑chain cho thấy lực nắm giữ dài hạn đang gia tăng và nguồn cung trên sàn giảm xuống đáy nhiều năm.",

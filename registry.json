@@ -1,5 +1,18 @@
 [
   {
+    "title": "Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 14 - 2026",
+    "slug": "crypto-weekly-outlook-14-2026",
+    "description": "Bitcoin đang ở trạng thái 'nén lò xo' kỹ thuật với dải Bollinger thu hẹp cực độ và RSI trung tính; tuy nhiên dòng vốn tổ chức cho thấy chuỗi rút vốn ngắn hạn qua ETF (đỉnh ngày 02/04: -$398.95M) trong khi cá voi gia tăng hành động phân phối (ví ngủ 5+ năm chuyển 5,500 BTC). Kịch bản ngắn hạn là biến động mạnh theo hai hướng: bứt phá lên $75k nếu giữ $66.9k, hoặc sụp xuống $55k–$60k nếu phá $62.7k; quyết định sẽ phụ thuộc vào diễn tiến pháp lý CLARITY và dòng tiền thông minh.",
+    "categories": [
+      "Weekly Outlook",
+      "Market"
+    ],
+    "date": "2026-04-04",
+    "readTime": 15,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/crypto-weekly-outlook-14-2026/800/450"
+  },
+  {
     "title": "Hệ thống Mạng lưới Canton: Kiến trúc Tài chính Đồng bộ và Kỷ nguyên Token hóa Tài sản Thực",
     "slug": "canton-network",
     "description": "Canton Network là nỗ lực kiến tạo một lớp hạ tầng *public permissioned* dành cho TradFi, giải quyết bài toán bất tương thích giữa quyền riêng tư doanh nghiệp và tính mạng lưới công khai bằng cơ chế đồng bộ hóa phân vùng (partitioned synchronization). Mạng được hậu thuẫn bởi vốn chiến lược quy mô lớn và quan hệ đối tác với DTCC, Goldman Sachs, Visa và các hạ tầng thị trường — tạo ra đường dẫn trực tiếp để kéo hàng nghìn tỷ USD RWA on‑chain. Tuy nhiên, quy mô niêm yết token, cơ chế Burn‑and‑Mint và phụ thuộc vào mô hình vận hành permissioned tạo ra các rủi ro thanh khoản, tập trung quyền lực vận hành và các nút thắt pháp lý mà nhà đầu tư tổ chức cần đánh giá kỹ lưỡng trước khi triển khai vị thế lớn.",

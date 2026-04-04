@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "DỰ BÁO GIÁ BITCOIN LÊN 74.549 USD",
-    "description": "Dự báo giá Bitcoin đạt 74.549 USD vào ngày 14 tháng 3 năm 2026.",
+    "value": "CÁC DỰ ÁN AI VÀ TOKEN HYPERLIQUID (HYPE) VƯỢT QUA THỊ TRƯỜNG GIẢM",
+    "description": "Token HYPE và các dự án AI ghi nhận lợi nhuận trên 30% trong quý 1 năm 2026.",
     "status": "BULLISH",
-    "related_url": "https://coincodex.com/article/82768/bitcoin-prediction-march-09-2026/",
-    "updated_at": "2026-03-09T00:00:00Z"
+    "related_url": "https://www.ainvest.com/news/april-2026-altcoin-flow-analysis-4-candidates-real-utility-measurable-flow-2604/",
+    "updated_at": "2026-04-03T13:20:00Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "CẢM XÚC THỊ TRƯỜNG: SỢ HÃI CỰC ĐOAN",
-    "description": "Chỉ số Sợ Hãi & Tham Lam ở mức 12, cho thấy tâm lý thị trường cực kỳ sợ hãi.",
-    "status": "BEARISH",
-    "related_url": "https://coin360.com/news/crypto-weekly-update-mar1-mar7-2026",
-    "updated_at": "2026-03-07T00:00:00Z"
+    "value": "THỊ TRƯỜNG TIẾP TỤC BIẾN ĐỘNG VỚI TĂNG CƯỜNG HOẠT ĐỘNG TRADFI TRÊN CHUỖI",
+    "description": "Mặc dù thị trường tiền điện tử biến động, nhưng hoạt động TradFi trên chuỗi tăng trưởng mạnh mẽ.",
+    "status": "NEUTRAL",
+    "related_url": "https://www.crowdfundinsider.com/2026/04/270512-crypto-market-volatility-persisted-in-q1-2026-but-on-chain-tradfi-gained-momentum-research/",
+    "updated_at": "2026-04-01T16:32:00Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "DÒNG VỐN CHẢY VÀO BITCOIN VÀ ETHEREUM",
-    "description": "Dòng vốn chảy vào Bitcoin và Ethereum, với Bitcoin ETF đạt 569 triệu USD trong tuần qua.",
+    "value": "VỐN ĐỔ VÀO TÀI SẢN THỰC VÀ TOKEN HÓA",
+    "description": "Vốn đầu tư chuyển hướng sang tài sản thực và token hóa, đạt giá trị 27,65 tỷ USD.",
     "status": "BULLISH",
-    "related_url": "https://crypto.com/en-es/market-updates/crypto-market-pulse-weekly-2026-03-09",
-    "updated_at": "2026-03-09T00:00:00Z"
+    "related_url": "https://www.ainvest.com/news/tokenized-assets-hit-27-6b-flow-analysis-crypto-downturn-2604/",
+    "updated_at": "2026-04-03T13:20:00Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
-    "value": "MỨC ĐỘ RỦI RO: THẤP",
-    "description": "Thị trường thể hiện mức độ rủi ro thấp, với chỉ số Sợ Hãi & Tham Lam ở mức 12.",
-    "status": "BEARISH",
-    "related_url": "https://coin360.com/news/crypto-weekly-update-mar1-mar7-2026",
-    "updated_at": "2026-03-07T00:00:00Z"
+    "value": "CÁC VỊ THẾ VĨ MÔ VÀ LIÊN QUAN ĐẾN DERIVATIVES",
+    "description": "Thị trường chứng kiến sự gia tăng các vị thế vĩ mô và liên quan đến derivatives.",
+    "status": "NEUTRAL",
+    "related_url": "https://www.datawallet.com/crypto/crypto-perpetual-futures-statistics",
+    "updated_at": "2026-04-02T00:00:00Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "HOẠT ĐỘNG CỦA CÁC QUỸ ĐẦU TƯ: TĂNG CƯỜNG",
-    "description": "Các quỹ đầu tư tổ chức tăng cường hoạt động, với dòng vốn chảy vào Bitcoin ETF đạt 569 triệu USD trong tuần qua.",
+    "value": "TĂNG CƯỜNG ĐẦU TƯ VENTURE VÀ ETF",
+    "description": "Các quỹ đầu tư mạo hiểm và ETF ghi nhận dòng vốn vào mạnh mẽ trong quý 1 năm 2026.",
     "status": "BULLISH",
-    "related_url": "https://crypto.com/en-es/market-updates/crypto-market-pulse-weekly-2026-03-09",
-    "updated_at": "2026-03-09T00:00:00Z"
+    "related_url": "https://www.kodatrader.com/blog/monthly-outlook-april-2026",
+    "updated_at": "2026-04-01T00:00:00Z"
   }
 ]

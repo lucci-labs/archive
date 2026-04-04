@@ -1,5 +1,17 @@
 [
   {
+    "title": "Why Protocols Could Benefit From Owning Their AMM Curve",
+    "slug": "why-protocols-could-benefit-from-owning-their-amm-curve",
+    "description": "Bài viết phân tích lỗ rò giá trị trong hệ sinh thái DEX AMM: nhiều protocol tạo ra khối lượng giao dịch lớn khi ra token nhưng không thể thu lại phí hay capture value — phí thuộc về LPs và nền tảng DEX",
+    "categories": [
+      "Market"
+    ],
+    "date": "2026-04-04",
+    "readTime": 8,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/why-protocols-could-benefit-from-owning-their-amm-curve/800/450"
+  },
+  {
     "title": "Crypto Weekly Outlook: Phân tích Thị trường Crypto Tuần 14 - 2026",
     "slug": "crypto-weekly-outlook-14-2026",
     "description": "Bitcoin đang ở trạng thái 'nén lò xo' kỹ thuật với dải Bollinger thu hẹp cực độ và RSI trung tính; tuy nhiên dòng vốn tổ chức cho thấy chuỗi rút vốn ngắn hạn qua ETF (đỉnh ngày 02/04: -$398.95M) trong khi cá voi gia tăng hành động phân phối (ví ngủ 5+ năm chuyển 5,500 BTC). Kịch bản ngắn hạn là biến động mạnh theo hai hướng: bứt phá lên $75k nếu giữ $66.9k, hoặc sụp xuống $55k–$60k nếu phá $62.7k; quyết định sẽ phụ thuộc vào diễn tiến pháp lý CLARITY và dòng tiền thông minh.",

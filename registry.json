@@ -1,5 +1,17 @@
 [
   {
+    "title": "The retail trade: crypto vs equities",
+    "slug": "the-retail-trade-crypto-vs-equities",
+    "description": "Retail từng là động lực chính kéo chu kỳ crypto: speculation, dip-buying reflexive và luân chuyển vốn nhanh giữa các token. Dữ liệu mới—kết hợp retail flow proprietary của Wintermute và retail equity inflows của JP Morgan—cho thấy một chuyển đổi: từ cuối 2024 retail bắt đầu phân bổ giữa equities và crypto thay vì cùng đổ vào cả hai",
+    "categories": [
+      "Market"
+    ],
+    "date": "2026-04-06",
+    "readTime": 5,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/the-retail-trade-crypto-vs-equities/800/450"
+  },
+  {
     "title": "Why Protocols Could Benefit From Owning Their AMM Curve",
     "slug": "why-protocols-could-benefit-from-owning-their-amm-curve",
     "description": "Bài viết phân tích lỗ rò giá trị trong hệ sinh thái DEX AMM: nhiều protocol tạo ra khối lượng giao dịch lớn khi ra token nhưng không thể thu lại phí hay capture value — phí thuộc về LPs và nền tảng DEX",

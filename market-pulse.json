@@ -1,47 +1,13 @@
 [
-  {
-    "id": "narrative",
-    "label": "MARKET_NARRATIVE",
-    "value": "Áp lực bán trên thị trường tiền điện tử gia tăng do dòng vốn ETF và hoạt động on-chain giảm sút.",
-    "description": "Dòng vốn ETF và hoạt động on-chain giảm sút gây áp lực bán trên thị trường tiền điện tử.",
-    "status": "BEARISH",
-    "related_url": "https://www.ainvest.com/news/solana-april-pressure-etf-flows-chain-demand-80-breakdown-2604/",
-    "updated_at": "2026-04-06T03:57:00Z"
-  },
-  {
-    "id": "sentiment",
-    "label": "MARKET_SENTIMENT",
-    "value": "Tâm lý thị trường tiêu cực do sự sụt giảm của các tài sản tiền điện tử chính.",
-    "description": "Sự sụt giảm của các tài sản tiền điện tử chính tạo ra tâm lý thị trường tiêu cực.",
-    "status": "BEARISH",
-    "related_url": "https://www.ainvest.com/news/april-crypto-breakout-flow-driven-analysis-2604/",
-    "updated_at": "2026-04-06T13:43:00Z"
-  },
-  {
-    "id": "rotation",
-    "label": "CAPITAL_ROTATION",
-    "value": "Dòng vốn chuyển hướng sang tài sản thực như dầu mỏ và cơ sở hạ tầng AI, giảm đầu tư vào tiền điện tử.",
-    "description": "Dòng vốn chuyển hướng sang tài sản thực như dầu mỏ và cơ sở hạ tầng AI, giảm đầu tư vào tiền điện tử.",
-    "status": "BEARISH",
-    "related_url": "https://www.ainvest.com/news/april-crypto-breakout-flow-driven-analysis-2604/",
-    "updated_at": "2026-04-06T13:43:00Z"
-  },
-  {
-    "id": "risk",
-    "label": "RISK_APPETITE",
-    "value": "Mức độ rủi ro giảm do sự sụt giảm của các tài sản tiền điện tử chính.",
-    "description": "Sự sụt giảm của các tài sản tiền điện tử chính dẫn đến mức độ rủi ro giảm.",
-    "status": "BEARISH",
-    "related_url": "https://www.ainvest.com/news/april-crypto-breakout-flow-driven-analysis-2604/",
-    "updated_at": "2026-04-06T13:43:00Z"
-  },
-  {
-    "id": "institutional",
-    "label": "INSTITUTIONAL_FOCUS",
-    "value": "Các nhà đầu tư tổ chức tiếp tục rút vốn khỏi thị trường tiền điện tử, tìm kiếm các cơ hội đầu tư khác.",
-    "description": "Các nhà đầu tư tổ chức tiếp tục rút vốn khỏi thị trường tiền điện tử, tìm kiếm các cơ hội đầu tư khác.",
-    "status": "BEARISH",
-    "related_url": "https://www.ainvest.com/news/solana-april-pressure-etf-flows-chain-demand-80-breakdown-2604/",
-    "updated_at": "2026-04-06T03:57:00Z"
-  }
+
+{"id": "narrative", "label": "MARKET_NARRATIVE", "value": "CÁC NHÀ ĐẦU TƯ LỚN CHUYỂN 2,4 TỶ USD VÀO BINANCE", "description": "Whales chuyển 2,4 tỷ USD BTC và ETH vào Binance, cho thấy sự quan tâm lớn từ các nhà đầu tư lớn.", "status": "BULLISH", "related_url": "https://coincentral.com/crypto-whales-move-2-4b-to-binance-as-stablecoin-flows-stay-flat/", "updated_at": "2026-04-08T03:08:41Z"},
+
+{"id": "sentiment", "label": "MARKET_SENTIMENT", "value": "TÂM LÝ THỊ TRƯỜNG: LẠNH NHẠT", "description": "Dòng stablecoin ổn định cho thấy sự thiếu quan tâm mới từ các nhà đầu tư nhỏ lẻ.", "status": "NEUTRAL", "related_url": "https://coincentral.com/crypto-whales-move-2-4b-to-binance-as-stablecoin-flows-stay-flat/", "updated_at": "2026-04-08T03:08:41Z"},
+
+{"id": "rotation", "label": "CAPITAL_ROTATION", "value": "DÒNG VỐN CHẢY VÀO CÁC TIỀN ĐIỆN TỬ LỚN", "description": "Dòng tiền lớn đổ vào BTC và ETH, cho thấy sự quan tâm đến các tài sản chính.", "status": "BULLISH", "related_url": "https://coincentral.com/crypto-whales-move-2-4b-to-binance-as-stablecoin-flows-stay-flat/", "updated_at": "2026-04-08T03:08:41Z"},
+
+{"id": "risk", "label": "RISK_APPETITE", "value": "MỨC ĐỘ RỦI RO: THẤP", "description": "Dòng stablecoin ổn định cho thấy nhà đầu tư tránh rủi ro, không có sự chấp nhận rủi ro cao.", "status": "NEUTRAL", "related_url": "https://coincentral.com/crypto-whales-move-2-4b-to-binance-as-stablecoin-flows-stay-flat/", "updated_at": "2026-04-08T03:08:41Z"},
+
+{"id": "institutional", "label": "INSTITUTIONAL_FOCUS", "value": "TẬP TRUNG VÀO CÁC TIỀN ĐIỆN TỬ LỚN", "description": "Các nhà đầu tư tổ chức chuyển sang BTC và ETH, cho thấy sự quan tâm đến các tài sản chính.", "status": "BULLISH", "related_url": "https://coincentral.com/crypto-whales-move-2-4b-to-binance-as-stablecoin-flows-stay-flat/", "updated_at": "2026-04-08T03:08:41Z"}
+
 ]

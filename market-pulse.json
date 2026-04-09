@@ -1,13 +1,47 @@
 [
-
-{"id": "narrative", "label": "MARKET_NARRATIVE", "value": "CÁC NHÀ ĐẦU TƯ LỚN CHUYỂN 2,4 TỶ USD VÀO BINANCE", "description": "Whales chuyển 2,4 tỷ USD BTC và ETH vào Binance, cho thấy sự quan tâm lớn từ các nhà đầu tư lớn.", "status": "BULLISH", "related_url": "https://coincentral.com/crypto-whales-move-2-4b-to-binance-as-stablecoin-flows-stay-flat/", "updated_at": "2026-04-08T03:08:41Z"},
-
-{"id": "sentiment", "label": "MARKET_SENTIMENT", "value": "TÂM LÝ THỊ TRƯỜNG: LẠNH NHẠT", "description": "Dòng stablecoin ổn định cho thấy sự thiếu quan tâm mới từ các nhà đầu tư nhỏ lẻ.", "status": "NEUTRAL", "related_url": "https://coincentral.com/crypto-whales-move-2-4b-to-binance-as-stablecoin-flows-stay-flat/", "updated_at": "2026-04-08T03:08:41Z"},
-
-{"id": "rotation", "label": "CAPITAL_ROTATION", "value": "DÒNG VỐN CHẢY VÀO CÁC TIỀN ĐIỆN TỬ LỚN", "description": "Dòng tiền lớn đổ vào BTC và ETH, cho thấy sự quan tâm đến các tài sản chính.", "status": "BULLISH", "related_url": "https://coincentral.com/crypto-whales-move-2-4b-to-binance-as-stablecoin-flows-stay-flat/", "updated_at": "2026-04-08T03:08:41Z"},
-
-{"id": "risk", "label": "RISK_APPETITE", "value": "MỨC ĐỘ RỦI RO: THẤP", "description": "Dòng stablecoin ổn định cho thấy nhà đầu tư tránh rủi ro, không có sự chấp nhận rủi ro cao.", "status": "NEUTRAL", "related_url": "https://coincentral.com/crypto-whales-move-2-4b-to-binance-as-stablecoin-flows-stay-flat/", "updated_at": "2026-04-08T03:08:41Z"},
-
-{"id": "institutional", "label": "INSTITUTIONAL_FOCUS", "value": "TẬP TRUNG VÀO CÁC TIỀN ĐIỆN TỬ LỚN", "description": "Các nhà đầu tư tổ chức chuyển sang BTC và ETH, cho thấy sự quan tâm đến các tài sản chính.", "status": "BULLISH", "related_url": "https://coincentral.com/crypto-whales-move-2-4b-to-binance-as-stablecoin-flows-stay-flat/", "updated_at": "2026-04-08T03:08:41Z"}
-
+  {
+    "id": "narrative",
+    "label": "MARKET_NARRATIVE",
+    "value": "CÁC QUỸ ETF BITCOIN GẶP PHẢN ỨNG TRÁI CHIỀU",
+    "description": "Dòng vốn ETF Bitcoin giảm mạnh, cho thấy sự thay đổi trong tâm lý nhà đầu tư.",
+    "status": "BEARISH",
+    "related_url": "https://coin360.com/news/crypto-weekly-update-mar29-apr4-2026",
+    "updated_at": "2026-04-04T00:00:00Z"
+  },
+  {
+    "id": "sentiment",
+    "label": "MARKET_SENTIMENT",
+    "value": "CẢM XÚC THỊ TRƯỜNG: SỢ HÃI CỰC ĐOAN",
+    "description": "Chỉ số sợ hãi đạt mức thấp, cho thấy tâm lý tiêu cực lan rộng.",
+    "status": "BEARISH",
+    "related_url": "https://coinstats.app/ai/a/latest-news-for-wrapped-bitcoin/",
+    "updated_at": "2026-04-07T00:00:00Z"
+  },
+  {
+    "id": "rotation",
+    "label": "CAPITAL_ROTATION",
+    "value": "VỐN DI CHUYỂN VÀO CÁC TÀI SẢN CÓ LỢI SUẤT CẤU TRÚC",
+    "description": "Nhà đầu tư chuyển sang các chiến lược lợi suất cấu trúc để giảm rủi ro.",
+    "status": "NEUTRAL",
+    "related_url": "https://zerocap.com/insights/weekly-crypto-market-wrap/weekly-crypto-market-wrap-7-april-2026/",
+    "updated_at": "2026-04-07T00:00:00Z"
+  },
+  {
+    "id": "risk",
+    "label": "RISK_APPETITE",
+    "value": "MỨC ĐỘ RỦI RO: THẤP",
+    "description": "Nhà đầu tư giảm sử dụng đòn bẩy, thể hiện sự thận trọng cao.",
+    "status": "BEARISH",
+    "related_url": "https://medium.com/@phemex.com/why-is-crypto-crashing-today-a-deep-dive-into-market-liquidity-and-macro-trends-april-2026-6e05a5a14168",
+    "updated_at": "2026-04-04T00:00:00Z"
+  },
+  {
+    "id": "institutional",
+    "label": "INSTITUTIONAL_FOCUS",
+    "value": "TẬP TRUNG CỦA CÁC QUỸ ĐẦU TƯ: CÁC TÀI SẢN CÓ LỢI SUẤT CẤU TRÚC",
+    "description": "Các quỹ đầu tư tập trung vào các tài sản có lợi suất cấu trúc để giảm rủi ro.",
+    "status": "NEUTRAL",
+    "related_url": "https://zerocap.com/insights/weekly-crypto-market-wrap/weekly-crypto-market-wrap-7-april-2026/",
+    "updated_at": "2026-04-07T00:00:00Z"
+  }
 ]

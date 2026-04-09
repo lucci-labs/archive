@@ -1,5 +1,17 @@
 [
   {
+    "title": "An economic analysis of safe harbor for blockchain applications",
+    "slug": "an-economic-analysis-of-safe-harbor-for-blockchain-applications",
+    "description": "Báo cáo phân tích kinh tế của Giáo sư Craig Lewis (cựu Chief Economist của SEC) đánh giá rằng đề xuất ‘safe harbor’ dành cho các blockchain front-end apps sẽ giải phóng lợi ích lớn của tokenization—atomic settlement, onchain transparency, giao dịch 24/7 và tiết giảm chi phí—trong khi các rủi ro (mất mát bảo hộ nhà đầu tư, regulatory arbitrage, phân mảnh thị trường, chi phí DeFi cho retail) có thể được quản lý. Lewis kết luận lợi ích tổng thể có thể vượt trội chi phí.\n\n",
+    "categories": [
+      "Market"
+    ],
+    "date": "2026-04-09",
+    "readTime": 5,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/an-economic-analysis-of-safe-harbor-for-blockchain-applications/800/450"
+  },
+  {
     "title": "Market Update: 6 April 2026",
     "slug": "market-update-6-april-2026",
     "description": "Tuần qua là một ‘risk‑on’ broad‑based với ETH, Nasdaq và vàng dẫn sóng, trong khi BTC là kẻ tụt lại (+2.0%) nhưng giữ vững vùng hỗ trợ ~$67k nhờ nhu cầu institutional (ETFs, Strategy).",

@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "CÁC QUỸ ETF BITCOIN GẶP PHẢN ỨNG TRÁI CHIỀU",
-    "description": "Dòng vốn ETF Bitcoin giảm mạnh, cho thấy sự thay đổi trong tâm lý nhà đầu tư.",
-    "status": "BEARISH",
-    "related_url": "https://coin360.com/news/crypto-weekly-update-mar29-apr4-2026",
-    "updated_at": "2026-04-04T00:00:00Z"
+    "value": "CÁC QUỸ ETF BITCOIN CỦA CÁC TỔ CHỨC TĂNG TRƯỞNG MẠNH MẼ",
+    "description": "Các quỹ ETF Bitcoin của các tổ chức ghi nhận dòng vốn vào mạnh mẽ, cho thấy sự chấp nhận của tổ chức.",
+    "status": "BULLISH",
+    "related_url": "https://hedgeco.net/news/02/2026/bitcoin-loses-half-its-value-in-three-months-inside-the-2026-crypto-crunch.html",
+    "updated_at": "2026-04-14T03:15:46Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "CẢM XÚC THỊ TRƯỜNG: SỢ HÃI CỰC ĐOAN",
-    "description": "Chỉ số sợ hãi đạt mức thấp, cho thấy tâm lý tiêu cực lan rộng.",
-    "status": "BEARISH",
-    "related_url": "https://coinstats.app/ai/a/latest-news-for-wrapped-bitcoin/",
-    "updated_at": "2026-04-07T00:00:00Z"
+    "value": "CẢM XÚC THỊ TRƯỜNG TRUNG LẬP",
+    "description": "Cảm xúc thị trường hiện tại là trung lập, với sự kết hợp giữa các yếu tố tăng và giảm.",
+    "status": "NEUTRAL",
+    "related_url": "https://coinmarketcap.com/top-stories/69d83e996983c5537c55a84c/",
+    "updated_at": "2026-04-14T03:15:46Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "VỐN DI CHUYỂN VÀO CÁC TÀI SẢN CÓ LỢI SUẤT CẤU TRÚC",
-    "description": "Nhà đầu tư chuyển sang các chiến lược lợi suất cấu trúc để giảm rủi ro.",
-    "status": "NEUTRAL",
-    "related_url": "https://zerocap.com/insights/weekly-crypto-market-wrap/weekly-crypto-market-wrap-7-april-2026/",
-    "updated_at": "2026-04-07T00:00:00Z"
+    "value": "DÒNG VỐN CHẢY VÀO BITCOIN VÀ ETHEREUM",
+    "description": "Dòng vốn chảy vào Bitcoin và Ethereum, trong khi các tài sản khác như NFT vẫn chưa phục hồi.",
+    "status": "BULLISH",
+    "related_url": "https://nftevening.com/institutions-buying-bitcoin-retail-traders-short-what-the-divergence-tells-nft-collectors/",
+    "updated_at": "2026-04-14T03:15:46Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
-    "value": "MỨC ĐỘ RỦI RO: THẤP",
-    "description": "Nhà đầu tư giảm sử dụng đòn bẩy, thể hiện sự thận trọng cao.",
-    "status": "BEARISH",
-    "related_url": "https://medium.com/@phemex.com/why-is-crypto-crashing-today-a-deep-dive-into-market-liquidity-and-macro-trends-april-2026-6e05a5a14168",
-    "updated_at": "2026-04-04T00:00:00Z"
+    "value": "MỨC ĐỘ ĐÒI HỎI RỦI RO CAO",
+    "description": "Mức độ chấp nhận rủi ro cao, với các tổ chức đầu tư mạnh mẽ vào Bitcoin thông qua ETF.",
+    "status": "BULLISH",
+    "related_url": "https://hedgeco.net/news/02/2026/bitcoin-loses-half-its-value-in-three-months-inside-the-2026-crypto-crunch.html",
+    "updated_at": "2026-04-14T03:15:46Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "TẬP TRUNG CỦA CÁC QUỸ ĐẦU TƯ: CÁC TÀI SẢN CÓ LỢI SUẤT CẤU TRÚC",
-    "description": "Các quỹ đầu tư tập trung vào các tài sản có lợi suất cấu trúc để giảm rủi ro.",
-    "status": "NEUTRAL",
-    "related_url": "https://zerocap.com/insights/weekly-crypto-market-wrap/weekly-crypto-market-wrap-7-april-2026/",
-    "updated_at": "2026-04-07T00:00:00Z"
+    "value": "TĂNG CƯỜNG ĐẦU TƯ VÀO BITCOIN QUA ETF",
+    "description": "Các tổ chức tăng cường đầu tư vào Bitcoin thông qua các quỹ ETF, cho thấy sự chấp nhận của tổ chức.",
+    "status": "BULLISH",
+    "related_url": "https://hedgeco.net/news/02/2026/bitcoin-loses-half-its-value-in-three-months-inside-the-2026-crypto-crunch.html",
+    "updated_at": "2026-04-14T03:15:46Z"
   }
 ]

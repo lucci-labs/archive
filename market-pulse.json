@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "CÁC QUỸ ETF BITCOIN CỦA CÁC TỔ CHỨC TĂNG TRƯỞNG MẠNH MẼ",
-    "description": "Các quỹ ETF Bitcoin của các tổ chức ghi nhận dòng vốn vào mạnh mẽ, cho thấy sự chấp nhận của tổ chức.",
+    "value": "CÁC NHÀ ĐẦU TƯ TỔ CHỨC TĂNG CƯỜNG MUA VÀO TRONG THÁNG 4 NĂM 2026",
+    "description": "Các tổ chức tài chính lớn đang tăng cường mua vào Bitcoin và Ethereum, cho thấy niềm tin vào thị trường.",
     "status": "BULLISH",
-    "related_url": "https://hedgeco.net/news/02/2026/bitcoin-loses-half-its-value-in-three-months-inside-the-2026-crypto-crunch.html",
-    "updated_at": "2026-04-14T03:15:46Z"
+    "related_url": "https://www.ainvest.com/news/ethereum-whales-accumulate-cpi-stablecoin-supply-hits-180-billion-2604/",
+    "updated_at": "2026-04-10T16:59:00Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "CẢM XÚC THỊ TRƯỜNG TRUNG LẬP",
-    "description": "Cảm xúc thị trường hiện tại là trung lập, với sự kết hợp giữa các yếu tố tăng và giảm.",
-    "status": "NEUTRAL",
-    "related_url": "https://coinmarketcap.com/top-stories/69d83e996983c5537c55a84c/",
-    "updated_at": "2026-04-14T03:15:46Z"
+    "value": "CẢM XÚC THỊ TRƯỜNG: SỢ HÃI CỰC ĐOAN",
+    "description": "Chỉ số Sợ Hãi & Tham Lam đạt mức thấp nhất trong nhiều tháng, phản ánh tâm lý tiêu cực của nhà đầu tư.",
+    "status": "BEARISH",
+    "related_url": "https://www.neuralarb.com/2026/04/06/crypto-market-update-mar-30-apr-6-2026/",
+    "updated_at": "2026-04-06T00:00:00Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "DÒNG VỐN CHẢY VÀO BITCOIN VÀ ETHEREUM",
-    "description": "Dòng vốn chảy vào Bitcoin và Ethereum, trong khi các tài sản khác như NFT vẫn chưa phục hồi.",
+    "value": "DÒNG VỐN CHẢY VÀO CÁC TÀI SẢN THỰC TẾ VÀ AI PHÂN TÂN",
+    "description": "Vốn đầu tư đang chuyển hướng sang các dự án AI phân tán và tài sản thực tế trên blockchain.",
     "status": "BULLISH",
-    "related_url": "https://nftevening.com/institutions-buying-bitcoin-retail-traders-short-what-the-divergence-tells-nft-collectors/",
-    "updated_at": "2026-04-14T03:15:46Z"
+    "related_url": "https://www.kucoin.com/blog/crypto-trends-in-2026-april",
+    "updated_at": "2026-04-08T00:00:00Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
-    "value": "MỨC ĐỘ ĐÒI HỎI RỦI RO CAO",
-    "description": "Mức độ chấp nhận rủi ro cao, với các tổ chức đầu tư mạnh mẽ vào Bitcoin thông qua ETF.",
-    "status": "BULLISH",
-    "related_url": "https://hedgeco.net/news/02/2026/bitcoin-loses-half-its-value-in-three-months-inside-the-2026-crypto-crunch.html",
-    "updated_at": "2026-04-14T03:15:46Z"
+    "value": "MỨC ĐỘ RỦI RO: THẤP",
+    "description": "Nhà đầu tư đang thận trọng, tránh xa các khoản đầu tư rủi ro cao trong bối cảnh thị trường không ổn định.",
+    "status": "BEARISH",
+    "related_url": "https://www.ainvest.com/news/crypto-flow-analysis-11-billion-q1-slowdown-means-2604/",
+    "updated_at": "2026-04-09T12:11:00Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "TĂNG CƯỜNG ĐẦU TƯ VÀO BITCOIN QUA ETF",
-    "description": "Các tổ chức tăng cường đầu tư vào Bitcoin thông qua các quỹ ETF, cho thấy sự chấp nhận của tổ chức.",
+    "value": "TẬP TRUNG CỦA CÁC TỔ CHỨC: TÀI SẢN THỰC TẾ VÀ AI PHÂN TÂN",
+    "description": "Các tổ chức đang đầu tư mạnh vào tài sản thực tế và các dự án AI phân tán, cho thấy niềm tin vào tiềm năng dài hạn của thị trường.",
     "status": "BULLISH",
-    "related_url": "https://hedgeco.net/news/02/2026/bitcoin-loses-half-its-value-in-three-months-inside-the-2026-crypto-crunch.html",
-    "updated_at": "2026-04-14T03:15:46Z"
+    "related_url": "https://www.kucoin.com/blog/crypto-trends-in-2026-april",
+    "updated_at": "2026-04-08T00:00:00Z"
   }
 ]

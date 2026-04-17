@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "XU HƯỚNG TĂNG CỦA BITCOIN VÀ ETHEREUM",
-    "description": "Bitcoin và Ethereum ghi nhận mức tăng giá đáng kể trong tuần qua.",
-    "status": "BULLISH",
-    "related_url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-price-today-thursday-april-9-2026-crypto-rally-slows-as-ceasefire-wavers-112457545.html",
-    "updated_at": "2026-04-16T04:36:34Z"
+    "value": "CÁC QUỸ ETF BITCOIN GẶP PHẢN ỨNG NGƯỢC",
+    "description": "Các quỹ ETF Bitcoin ghi nhận dòng vốn rút ra, cho thấy sự giảm sút trong niềm tin của nhà đầu tư tổ chức.",
+    "status": "BEARISH",
+    "related_url": "https://coingape.com/block-of-fame/research/crypto-market-report-q1-2026-btc-eth-stablecoins-rwas-ai-institutional-trends/",
+    "updated_at": "2026-04-15T00:00:00Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "TÂM LÝ THỊ TRƯỜNG: LẠNH NHẠT",
-    "description": "Chỉ số Sợ Hãi & Tham Lam giảm xuống 13, cho thấy tâm lý thị trường tiêu cực.",
+    "value": "TÂM LÝ THẬN TRỌNG CỦA NHÀ ĐẦU TƯ",
+    "description": "Nhà đầu tư tỏ ra thận trọng do sự biến động của thị trường và dòng vốn rút ra từ các quỹ ETF.",
     "status": "BEARISH",
-    "related_url": "https://coinstats.app/ai/a/latest-news-for-bitcoin",
-    "updated_at": "2026-04-16T04:36:34Z"
+    "related_url": "https://coingape.com/block-of-fame/research/crypto-market-report-q1-2026-btc-eth-stablecoins-rwas-ai-institutional-trends/",
+    "updated_at": "2026-04-15T00:00:00Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "DÒNG VỐN CHẢY VÀO BITCOIN VÀ ETHEREUM",
-    "description": "Dòng vốn đổ vào Bitcoin và Ethereum tăng mạnh, đặc biệt từ các tổ chức lớn.",
-    "status": "BULLISH",
-    "related_url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-price-today-thursday-april-9-2026-crypto-rally-slows-as-ceasefire-wavers-112457545.html",
-    "updated_at": "2026-04-16T04:36:34Z"
+    "value": "DÒNG VỐN CHẢY VÀO VÀNG VÀ CỔ PHIẾU",
+    "description": "Nhà đầu tư chuyển vốn sang vàng và cổ phiếu do sự không chắc chắn của thị trường tiền điện tử.",
+    "status": "BEARISH",
+    "related_url": "https://coingape.com/block-of-fame/research/crypto-market-report-q1-2026-btc-eth-stablecoins-rwas-ai-institutional-trends/",
+    "updated_at": "2026-04-15T00:00:00Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
-    "value": "MỨC ĐỘ RỦI RO: THẤP",
-    "description": "Chỉ số Sợ Hãi & Tham Lam giảm xuống 13, cho thấy tâm lý thị trường tiêu cực.",
+    "value": "MỨC ĐỘ RỦI RO GIẢM",
+    "description": "Nhà đầu tư giảm mức độ rủi ro, thể hiện qua việc rút vốn khỏi các quỹ ETF và chuyển sang tài sản an toàn hơn.",
     "status": "BEARISH",
-    "related_url": "https://coinstats.app/ai/a/latest-news-for-bitcoin",
-    "updated_at": "2026-04-16T04:36:34Z"
+    "related_url": "https://coingape.com/block-of-fame/research/crypto-market-report-q1-2026-btc-eth-stablecoins-rwas-ai-institutional-trends/",
+    "updated_at": "2026-04-15T00:00:00Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "TẬP TRUNG VÀO BITCOIN VÀ ETHEREUM",
-    "description": "Các tổ chức lớn tiếp tục đầu tư mạnh vào Bitcoin và Ethereum.",
+    "value": "CÁC CÔNG TY CÔNG CỘNG MUA TIỀM NĂNG",
+    "description": "Các công ty công cộng tiếp tục mua tiền điện tử, cho thấy niềm tin dài hạn vào thị trường.",
     "status": "BULLISH",
-    "related_url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-price-today-thursday-april-9-2026-crypto-rally-slows-as-ceasefire-wavers-112457545.html",
-    "updated_at": "2026-04-16T04:36:34Z"
+    "related_url": "https://coingape.com/block-of-fame/research/crypto-market-report-q1-2026-btc-eth-stablecoins-rwas-ai-institutional-trends/",
+    "updated_at": "2026-04-15T00:00:00Z"
   }
 ]

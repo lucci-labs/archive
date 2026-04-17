@@ -1,5 +1,17 @@
 [
   {
+    "title": "Entering the era of the headless merchant",
+    "slug": "entering-the-era-of-the-headless-merchant",
+    "description": "Khi AI agents có thể đọc API, thanh toán theo yêu cầu và giao dịch tức thì, một dạng thương mại mới — ‘headless merchant’ — xuất hiện: doanh nghiệp không có storefront hay frontend, chỉ có các endpoint API gọn nhẹ, giá theo yêu cầu và thanh toán nhúng ngay trong HTTP request.",
+    "categories": [
+      "Market"
+    ],
+    "date": "2026-04-16",
+    "readTime": 5,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/entering-the-era-of-the-headless-merchant/800/450"
+  },
+  {
     "title": "Chiến lược Kháng lượng tử của Ethereum",
     "slug": "chien-luoc-khang-luong-tu-cua-ethereum",
     "description": "Ethereum đang thực hiện một 'thay máu' mật mã: lộ trình Strawmap 7 hard‑fork đến 2029, chuyển dịch sang leanVM + precompiles PQC, và mô hình Frame Transactions (EIP‑8141) như cầu nối chuyển đổi ví. Mục tiêu là giảm rủi ro 'Harvest Now, Decrypt Later', duy trì khả năng vận hành mạng khi Q‑Day xuất hiện, và cung cấp đường thoát native cho ví EOA.",

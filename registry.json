@@ -1,5 +1,18 @@
 [
   {
+    "title": "Market Update: 20 April 2026",
+    "slug": "market-update-20-april-2026",
+    "description": "Tái mở Eo biển Hormuz chỉ tồn tại dưới 24 giờ trước khi Iran đảo ngược quyết định — điều này biến rủi ro từ một cú sốc tạm thời thành vấn đề supply kéo dài nếu không có ceasefire bền vững. BTC giữ vững tương đối tốt trên cơ sở risk‑adjusted; spot ETF flows cho thấy cầu thực. Nếu cuộc khủng hoảng kéo dài, năng lượng đẩy lạm phát lên sẽ làm trì hoãn lộ trình rate cuts, khiến risk assets chịu áp lực; đồng thời đây là cơ hội để BTC củng cố narrative 'store of value' nếu nó tiếp tục đứng vững.",
+    "categories": [
+      "Market",
+      "Weekly Outlook"
+    ],
+    "date": "2026-04-21",
+    "readTime": 5,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/market-update-20-april-2026/800/450"
+  },
+  {
     "title": "Entering the era of the headless merchant",
     "slug": "entering-the-era-of-the-headless-merchant",
     "description": "Khi AI agents có thể đọc API, thanh toán theo yêu cầu và giao dịch tức thì, một dạng thương mại mới — ‘headless merchant’ — xuất hiện: doanh nghiệp không có storefront hay frontend, chỉ có các endpoint API gọn nhẹ, giá theo yêu cầu và thanh toán nhúng ngay trong HTTP request.",

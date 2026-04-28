@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "CÁC QUỸ ETF ĐỔ VÀO BITCOIN, ETH THẤP HƠN",
-    "description": "Quỹ ETF đổ vào Bitcoin, Ethereum giảm, thị trường biến động.",
+    "value": "CÁC QUỸ ETF ĐỔ VỀ BITCOIN VÀ ETHEREUM",
+    "description": "Quỹ ETF đổ vào Bitcoin và Ethereum, cho thấy sự quan tâm của tổ chức.",
     "status": "BULLISH",
-    "related_url": "https://coin360.com/news/crypto-weekly-update-apr19-apr25-2026",
-    "updated_at": "2026-04-25T13:00:00Z"
+    "related_url": "https://www.streetbrief.co/article/crypto-flow-analysis-etf-inflows-market-breadth-april-2026-2604/",
+    "updated_at": "2026-04-21T00:00:00Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "THỊ TRƯỜNG ĐANG SỢ HÃI",
-    "description": "Chỉ số sợ hãi và tham lam ở mức 31, cho thấy tâm lý sợ hãi.",
-    "status": "BEARISH",
-    "related_url": "https://coin360.com/news/crypto-weekly-update-apr19-apr25-2026",
-    "updated_at": "2026-04-25T13:00:00Z"
+    "value": "TÂM LÝ THỊ TRƯỜNG: THẬN TRỌNG",
+    "description": "Thị trường thể hiện tâm lý thận trọng, với sự tham gia của tổ chức và nhà đầu tư bán lẻ.",
+    "status": "NEUTRAL",
+    "related_url": "https://www.streetbrief.co/article/crypto-flow-analysis-etf-inflows-market-breadth-april-2026-2604/",
+    "updated_at": "2026-04-21T00:00:00Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "TIỀN ĐỔ VÀO BITCOIN, ETH GIẢM",
-    "description": "Dòng vốn chuyển sang Bitcoin, Ethereum giảm, thị trường biến động.",
+    "value": "DÒNG VỐN CHẢY VÀO BITCOIN VÀ ETHEREUM",
+    "description": "Dòng vốn chảy vào Bitcoin và Ethereum, cho thấy sự quan tâm của tổ chức.",
     "status": "BULLISH",
-    "related_url": "https://coin360.com/news/crypto-weekly-update-apr19-apr25-2026",
-    "updated_at": "2026-04-25T13:00:00Z"
+    "related_url": "https://www.streetbrief.co/article/crypto-flow-analysis-etf-inflows-market-breadth-april-2026-2604/",
+    "updated_at": "2026-04-21T00:00:00Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
-    "value": "MỨC ĐỘ RỦI RO CAO",
-    "description": "Thị trường biến động mạnh, nhà đầu tư chấp nhận rủi ro cao.",
+    "value": "MỨC ĐỘ RỦI RO: THẤP",
+    "description": "Thị trường thể hiện mức độ rủi ro thấp, với sự tham gia của tổ chức và nhà đầu tư bán lẻ.",
     "status": "NEUTRAL",
-    "related_url": "https://coin360.com/news/crypto-weekly-update-apr19-apr25-2026",
-    "updated_at": "2026-04-25T13:00:00Z"
+    "related_url": "https://www.streetbrief.co/article/crypto-flow-analysis-etf-inflows-market-breadth-april-2026-2604/",
+    "updated_at": "2026-04-21T00:00:00Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "QUỸ ETF ĐỔ VÀO BITCOIN, ETH GIẢM",
-    "description": "Quỹ ETF đổ vào Bitcoin, Ethereum giảm, thị trường biến động.",
+    "value": "TỔ CHỨC TẬP TRUNG VÀO BITCOIN VÀ ETHEREUM",
+    "description": "Tổ chức tập trung vào Bitcoin và Ethereum, cho thấy sự quan tâm của tổ chức.",
     "status": "BULLISH",
-    "related_url": "https://coin360.com/news/crypto-weekly-update-apr19-apr25-2026",
-    "updated_at": "2026-04-25T13:00:00Z"
+    "related_url": "https://www.streetbrief.co/article/crypto-flow-analysis-etf-inflows-market-breadth-april-2026-2604/",
+    "updated_at": "2026-04-21T00:00:00Z"
   }
 ]

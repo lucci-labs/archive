@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "CÁC QUỸ ETF ĐỔ VỀ BITCOIN VÀ ETHEREUM",
-    "description": "Quỹ ETF đổ vào Bitcoin và Ethereum, cho thấy sự quan tâm của tổ chức.",
+    "value": "BITCOIN_VƯỢT_MỨC_80K_USD",
+    "description": "Bitcoin đạt mức giá cao nhất trong ba tháng, vượt qua 80.000 USD.",
     "status": "BULLISH",
-    "related_url": "https://www.streetbrief.co/article/crypto-flow-analysis-etf-inflows-market-breadth-april-2026-2604/",
-    "updated_at": "2026-04-21T00:00:00Z"
+    "related_url": "https://www.mexc.com/crypto-pulse/article/bitcoin-breaks-80k-110069",
+    "updated_at": "2026-05-04T15:42:00Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "TÂM LÝ THỊ TRƯỜNG: THẬN TRỌNG",
-    "description": "Thị trường thể hiện tâm lý thận trọng, với sự tham gia của tổ chức và nhà đầu tư bán lẻ.",
-    "status": "NEUTRAL",
-    "related_url": "https://www.streetbrief.co/article/crypto-flow-analysis-etf-inflows-market-breadth-april-2026-2604/",
-    "updated_at": "2026-04-21T00:00:00Z"
+    "value": "TÍCH_CỰC",
+    "description": "Nhà đầu tư tỏ ra lạc quan với sự gia tăng của Bitcoin và Ethereum.",
+    "status": "BULLISH",
+    "related_url": "https://www.businesstoday.com.my/2026/05/03/crypto-snapshot-bitcoin-holds-firm-ethereum-steadies-in-mixed-crypto-week/",
+    "updated_at": "2026-05-03T00:00:00Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "DÒNG VỐN CHẢY VÀO BITCOIN VÀ ETHEREUM",
-    "description": "Dòng vốn chảy vào Bitcoin và Ethereum, cho thấy sự quan tâm của tổ chức.",
+    "value": "DÒNG_VỐN_ĐỔ_VÀO_BTC_VÀ_ETH",
+    "description": "Dòng vốn lớn đổ vào Bitcoin và Ethereum, củng cố giá trị thị trường.",
     "status": "BULLISH",
-    "related_url": "https://www.streetbrief.co/article/crypto-flow-analysis-etf-inflows-market-breadth-april-2026-2604/",
-    "updated_at": "2026-04-21T00:00:00Z"
+    "related_url": "https://www.kucoin.com/news/insight/BTC/69f8abc62f8d6c0007322b15",
+    "updated_at": "2026-05-04T14:27:41Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
-    "value": "MỨC ĐỘ RỦI RO: THẤP",
-    "description": "Thị trường thể hiện mức độ rủi ro thấp, với sự tham gia của tổ chức và nhà đầu tư bán lẻ.",
+    "value": "CẢM_XÚC_RỦI_RO_TĂNG",
+    "description": "Nhà đầu tư chấp nhận rủi ro cao hơn với sự biến động của thị trường.",
     "status": "NEUTRAL",
-    "related_url": "https://www.streetbrief.co/article/crypto-flow-analysis-etf-inflows-market-breadth-april-2026-2604/",
-    "updated_at": "2026-04-21T00:00:00Z"
+    "related_url": "https://www.hextrust.com/resources-collection/late-week-etf-rescue-masks-a-narrower-crypto-regime",
+    "updated_at": "2026-05-04T00:00:00Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "TỔ CHỨC TẬP TRUNG VÀO BITCOIN VÀ ETHEREUM",
-    "description": "Tổ chức tập trung vào Bitcoin và Ethereum, cho thấy sự quan tâm của tổ chức.",
+    "value": "TĂNG_CƯỜNG_ĐẦU_TƯ_VÀO_ETF_BTC",
+    "description": "Quỹ ETF Bitcoin thu hút dòng vốn lớn từ các tổ chức tài chính.",
     "status": "BULLISH",
-    "related_url": "https://www.streetbrief.co/article/crypto-flow-analysis-etf-inflows-market-breadth-april-2026-2604/",
-    "updated_at": "2026-04-21T00:00:00Z"
+    "related_url": "https://www.kucoin.com/news/insight/BTC/69f8abc62f8d6c0007322b15",
+    "updated_at": "2026-05-04T14:27:41Z"
   }
 ]

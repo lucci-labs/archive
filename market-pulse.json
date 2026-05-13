@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "CÁC QUỸ ETF BITCOIN GHI NHẬN DÒNG VỐN LIÊN TỤC TRONG 4 TUẦN",
-    "description": "Dòng vốn vào Bitcoin ETF tiếp tục tăng, cho thấy nhu cầu từ các tổ chức.",
-    "status": "BULLISH",
-    "related_url": "https://www.cointree.com/news/cointree-crypto-market-update-may-6th-2026/",
+    "value": "CÁC QUY ĐỊNH MỚI VỀ STABLECOIN VÀ DÒNG CHẢY CỦA CÁC CÁ VƯỢT BIỂN",
+    "description": "Các quy định mới về stablecoin và dòng chảy của các cá voi đang ảnh hưởng đến thị trường.",
+    "status": "NEUTRAL",
+    "related_url": "https://deepbluealpha.io/research/stablecoin-regulation-on-chain-impact-2026",
     "updated_at": "2026-05-06T00:00:00Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "TÂM LÝ THỊ TRƯỜNG: LẠNH NHẠT",
-    "description": "Chỉ số Sợ Hãi & Tham Lam ở mức 46, cho thấy tâm lý trung lập.",
+    "value": "TÂM LÝ THỊ TRƯỜNG: TRUNG LẬP",
+    "description": "Thị trường hiện tại không có xu hướng rõ ràng, tâm lý trung lập chiếm ưu thế.",
     "status": "NEUTRAL",
-    "related_url": "https://www.coinperps.com/",
-    "updated_at": "2026-05-11T00:00:00Z"
+    "related_url": "https://coinmarketcap.com/charts/exchange-inflows-outflows/",
+    "updated_at": "2026-05-13T00:00:00Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "DÒNG VỐN CHẢY VÀO BITCOIN, RA KHỎI ETHEREUM",
-    "description": "Dòng vốn vào Bitcoin ETF tăng, trong khi Ethereum ETF ghi nhận dòng vốn ra.",
-    "status": "BULLISH",
-    "related_url": "https://www.cointree.com/news/cointree-crypto-market-update-may-6th-2026/",
+    "value": "DÒNG VỐN CHẢY VÀO STABLECOIN VÀ CÁC DỰ ÁN AI",
+    "description": "Dòng vốn đang chuyển hướng vào stablecoin và các dự án AI, cho thấy sự thận trọng của nhà đầu tư.",
+    "status": "NEUTRAL",
+    "related_url": "https://deepbluealpha.io/research/stablecoin-regulation-on-chain-impact-2026",
     "updated_at": "2026-05-06T00:00:00Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
     "value": "MỨC ĐỘ RỦI RO: TRUNG BÌNH",
-    "description": "Tỷ lệ Long/Short gần như cân bằng, cho thấy sự thận trọng của nhà đầu tư.",
+    "description": "Nhà đầu tư đang duy trì mức độ rủi ro trung bình, không quá mạo hiểm cũng không quá thận trọng.",
     "status": "NEUTRAL",
-    "related_url": "https://www.coinperps.com/",
-    "updated_at": "2026-05-11T00:00:00Z"
+    "related_url": "https://coinmarketcap.com/charts/liquidations/",
+    "updated_at": "2026-05-13T00:00:00Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "CÁC QUỸ VC TẬP TRUNG VÀO CÁC DỰ ÁN AI VÀ DEPIN",
-    "description": "Các quỹ đầu tư mạo hiểm đang quan tâm đến các dự án AI và DePIN.",
-    "status": "BULLISH",
-    "related_url": "https://www.cointree.com/news/cointree-crypto-market-update-may-6th-2026/",
+    "value": "TẬP TRUNG CỦA CÁC QUỸ ĐẦU TƯ: STABLECOIN VÀ AI",
+    "description": "Các quỹ đầu tư đang tập trung vào stablecoin và các dự án AI, phản ánh xu hướng thị trường hiện tại.",
+    "status": "NEUTRAL",
+    "related_url": "https://deepbluealpha.io/research/stablecoin-regulation-on-chain-impact-2026",
     "updated_at": "2026-05-06T00:00:00Z"
   }
 ]

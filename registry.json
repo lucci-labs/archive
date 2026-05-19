@@ -1,5 +1,18 @@
 [
   {
+    "title": "Cập nhập thị trường: 18/5/2026",
+    "slug": "market-update-18-may-2026",
+    "description": "CPI tháng 4 nóng hơn kỳ vọng (3.8% YoY), đẩy 10Y lên 4.58% và khiến thị trường chuyển từ kỳ vọng cắt giảm lãi suất sang khả năng tăng lãi suất vào cuối năm (44% cho tháng 12). Fed có Chủ tịch mới được xác nhận (Warsh, 54-45). Crypto: BTC giảm ~5.7%, ETH -10.2%; ETF spot BTC ghi nhận -$1B, chấm dứt chuỗi 6 tuần inflow — đợt squeeze trước đó đang unwind.",
+    "categories": [
+      "Market",
+      "Weekly Outlook"
+    ],
+    "date": "2026-05-19",
+    "readTime": 5,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/market-update-18-may-2026/800/450"
+  },
+  {
     "title": "Cập nhập thị trường: 11/5/2026",
     "slug": "market-update-11-may-2026",
     "description": "Equities tiếp tục chuỗi tăng liên tiếp và BTC phá vỡ trên 200‑day MA về ~\\$82k, nhưng breakout này được dẫn dắt bởi short squeeze (OI tăng \\$10B trong một tháng) trong khi spot volumes ở mức thấp nhất hai năm. Nếu spot không xuất hiện để hỗ trợ sau khi squeeze kết thúc, đợt tăng có thể thoái lui.",

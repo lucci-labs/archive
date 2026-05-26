@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "BITCOIN VẪN DẪN ĐẦU THỊ TRƯỜNG, TONCOIN BỨT PHÁ MẠNH MẼ",
-    "description": "Bitcoin duy trì vị thế dẫn đầu, trong khi Toncoin tăng mạnh nhờ Telegram tham gia.",
+    "value": "CÁC NHÀ ĐẦU TƯ LỚN TĂNG CƯỜNG DỰ TRỮ STABLECOIN",
+    "description": "Dòng stablecoin ròng tăng 2,51 tỷ USD trong 7 ngày, cho thấy xu hướng tích trữ của các nhà đầu tư lớn.",
     "status": "BULLISH",
-    "related_url": "https://www.spotedcrypto.com/crypto-weekly-analysis-may-2026-market-moves/",
-    "updated_at": "2026-05-15T16:00:00Z"
+    "related_url": "https://deepbluealpha.io/research/stablecoin-regulation-on-chain-impact-2026",
+    "updated_at": "2026-05-19T00:00:00Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "TÂM LÝ THỊ TRƯỜNG: THẬN TRỌNG VÀ CẢN TRỌNG",
-    "description": "Nhà đầu tư tỏ ra thận trọng, chờ đợi các tín hiệu rõ ràng hơn từ thị trường.",
+    "value": "TÂM LÝ THỊ TRƯỜNG: THẬN TRỌNG",
+    "description": "Tỷ lệ Long/Short gần như cân bằng cho thấy tâm lý thị trường thận trọng.",
     "status": "NEUTRAL",
-    "related_url": "https://www.fameex.com/en-US/news/crypto-news-recap-20260512",
-    "updated_at": "2026-05-12T07:01:45Z"
+    "related_url": "https://www.coinperps.com/",
+    "updated_at": "2026-05-19T00:00:00Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "DÒNG VỐN CHẢY MẠNH VÀO ALTCOINS, ĐẶC BIỆT LÀ TONCOIN",
-    "description": "Dòng vốn chuyển hướng mạnh mẽ sang altcoins, đặc biệt là Toncoin sau thông báo của Telegram.",
+    "value": "DÒNG VỐN CHẢY VÀO STABLECOIN",
+    "description": "Dòng stablecoin ròng tăng 2,51 tỷ USD trong 7 ngày, cho thấy xu hướng tích trữ của các nhà đầu tư lớn.",
     "status": "BULLISH",
-    "related_url": "https://www.spotedcrypto.com/crypto-weekly-analysis-may-2026-market-moves/",
-    "updated_at": "2026-05-15T16:00:00Z"
+    "related_url": "https://deepbluealpha.io/research/stablecoin-regulation-on-chain-impact-2026",
+    "updated_at": "2026-05-19T00:00:00Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
-    "value": "MỨC ĐỘ RỦI RO: CAO VỚI SỰ THAM GIA CỦA CÁC NHÀ ĐẦU TƯ LỚN",
-    "description": "Sự tham gia của các nhà đầu tư lớn cho thấy mức độ rủi ro cao trong thị trường.",
-    "status": "BULLISH",
-    "related_url": "https://www.fameex.com/en-US/news/crypto-news-recap-20260512",
-    "updated_at": "2026-05-12T07:01:45Z"
+    "value": "MỨC ĐỘ RỦI RO: THẤP",
+    "description": "Tỷ lệ Long/Short gần như cân bằng cho thấy tâm lý thị trường thận trọng.",
+    "status": "NEUTRAL",
+    "related_url": "https://www.coinperps.com/",
+    "updated_at": "2026-05-19T00:00:00Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "CÁC QUỸ ĐẦU TƯ TẬP TRUNG VÀO CÁC DỰ ÁN TIỀM NĂNG NHƯ TONCOIN",
-    "description": "Các quỹ đầu tư đang tập trung vào các dự án tiềm năng như Toncoin sau thông báo của Telegram.",
+    "value": "TẬP TRUNG CỦA VC: STABLECOIN VÀ CÔNG NGHỆ BLOCKCHAIN",
+    "description": "Dòng stablecoin ròng tăng 2,51 tỷ USD trong 7 ngày, cho thấy xu hướng tích trữ của các nhà đầu tư lớn.",
     "status": "BULLISH",
-    "related_url": "https://www.spotedcrypto.com/crypto-weekly-analysis-may-2026-market-moves/",
-    "updated_at": "2026-05-15T16:00:00Z"
+    "related_url": "https://deepbluealpha.io/research/stablecoin-regulation-on-chain-impact-2026",
+    "updated_at": "2026-05-19T00:00:00Z"
   }
 ]

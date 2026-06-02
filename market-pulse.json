@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "CÁC NHÀ ĐẦU TƯ LỚN TĂNG CƯỜNG DỰ TRỮ STABLECOIN",
-    "description": "Dòng stablecoin ròng tăng 2,51 tỷ USD trong 7 ngày, cho thấy xu hướng tích trữ của các nhà đầu tư lớn.",
-    "status": "BULLISH",
-    "related_url": "https://deepbluealpha.io/research/stablecoin-regulation-on-chain-impact-2026",
-    "updated_at": "2026-05-19T00:00:00Z"
+    "value": "CÁC QUỸ ETF RÚT TIỀN KHIẾN THỊ TRƯỜNG GIẢM",
+    "description": "Các quỹ ETF Bitcoin và Ethereum ghi nhận dòng vốn rút mạnh, gây áp lực giảm giá.",
+    "status": "BEARISH",
+    "related_url": "https://www.cryptotimes.io/2026/05/27/crypto-market-today-btc-eth-xrp-slip-as-333m-liquidations-hit-longs/",
+    "updated_at": "2026-06-02T04:29:39Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "TÂM LÝ THỊ TRƯỜNG: THẬN TRỌNG",
-    "description": "Tỷ lệ Long/Short gần như cân bằng cho thấy tâm lý thị trường thận trọng.",
-    "status": "NEUTRAL",
-    "related_url": "https://www.coinperps.com/",
-    "updated_at": "2026-05-19T00:00:00Z"
+    "value": "CẢM XÚC THỊ TRƯỜNG: THẬN TRỌNG",
+    "description": "Thị trường thể hiện tâm lý thận trọng với dòng vốn rút và thanh lý vị thế dài hạn.",
+    "status": "BEARISH",
+    "related_url": "https://www.cryptotimes.io/2026/05/27/crypto-market-today-btc-eth-xrp-slip-as-333m-liquidations-hit-longs/",
+    "updated_at": "2026-06-02T04:29:39Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "DÒNG VỐN CHẢY VÀO STABLECOIN",
-    "description": "Dòng stablecoin ròng tăng 2,51 tỷ USD trong 7 ngày, cho thấy xu hướng tích trữ của các nhà đầu tư lớn.",
+    "value": "DÒNG VỐN CHẢY VÀO ARBITRUM, RỜI BỎ ETHEREUM",
+    "description": "Dòng stablecoin tăng mạnh trên Arbitrum, trong khi Ethereum ghi nhận giảm.",
     "status": "BULLISH",
-    "related_url": "https://deepbluealpha.io/research/stablecoin-regulation-on-chain-impact-2026",
-    "updated_at": "2026-05-19T00:00:00Z"
+    "related_url": "https://blockchain.news/flashnews/stablecoin-flows-381-3m-surge-on-arbitrum-and-374m-drop-on-ethereum-signal-shifting-crypto-market-dynamics",
+    "updated_at": "2026-06-02T04:29:39Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
     "value": "MỨC ĐỘ RỦI RO: THẤP",
-    "description": "Tỷ lệ Long/Short gần như cân bằng cho thấy tâm lý thị trường thận trọng.",
-    "status": "NEUTRAL",
-    "related_url": "https://www.coinperps.com/",
-    "updated_at": "2026-05-19T00:00:00Z"
+    "description": "Thị trường thể hiện mức độ rủi ro thấp với dòng vốn rút và thanh lý vị thế dài hạn.",
+    "status": "BEARISH",
+    "related_url": "https://www.cryptotimes.io/2026/05/27/crypto-market-today-btc-eth-xrp-slip-as-333m-liquidations-hit-longs/",
+    "updated_at": "2026-06-02T04:29:39Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "TẬP TRUNG CỦA VC: STABLECOIN VÀ CÔNG NGHỆ BLOCKCHAIN",
-    "description": "Dòng stablecoin ròng tăng 2,51 tỷ USD trong 7 ngày, cho thấy xu hướng tích trữ của các nhà đầu tư lớn.",
-    "status": "BULLISH",
-    "related_url": "https://deepbluealpha.io/research/stablecoin-regulation-on-chain-impact-2026",
-    "updated_at": "2026-05-19T00:00:00Z"
+    "value": "QUỸ ETF RÚT TIỀN, CẢI TỔ CƠ CẤU VỐN",
+    "description": "Các quỹ ETF ghi nhận dòng vốn rút mạnh, ảnh hưởng đến cơ cấu vốn thị trường.",
+    "status": "BEARISH",
+    "related_url": "https://www.cryptotimes.io/2026/05/27/crypto-market-today-btc-eth-xrp-slip-as-333m-liquidations-hit-longs/",
+    "updated_at": "2026-06-02T04:29:39Z"
   }
 ]

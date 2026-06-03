@@ -1,5 +1,17 @@
 [
   {
+    "title": "Why prediction markets matter",
+    "slug": "why-prediction-markets-matter",
+    "description": "Prediction markets tận dụng khả năng tổng hợp thông tin của thị trường để ước đoán xác suất xảy ra một sự kiện cụ thể. Khi hoạt động tốt, chúng cung cấp các tín hiệu theo thời gian thực, có động lực (skin in the game) và phạm vi áp dụng rộng—từ nội bộ doanh nghiệp tới dự báo khoa học và tin tức công chúng—nhưng vẫn đối mặt với thách thức về thiết kế hợp đồng, tính minh bạch, và rủi ro thao túng hoặc thiếu nguồn thông tin phù hợp.",
+    "categories": [
+      "Market"
+    ],
+    "date": "2026-06-03",
+    "readTime": 5,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/why-prediction-markets-matter/800/450"
+  },
+  {
     "title": "Cập nhập thị trường: 1/6/2026",
     "slug": "market-update-1-june-2026",
     "description": "Crypto lùi lại giữa làn sóng risk‑on của cổ phiếu: BTC về ~72k, ETH dưới $2k và ETF spot ghi nhận luồng rút lớn nhất kể từ lúc ra mắt (~$1.4B). Dù ngắn hạn yếu, dòng vốn dài hạn bắt đầu TWAP vào qua OTC — vì vậy chu kỳ có vẻ đang tái thiết lập hơn là một sự sụp đổ hoàn toàn. HYPE là điểm sáng đáng chú ý khi decouple khỏi thị trường rộng hơn.",

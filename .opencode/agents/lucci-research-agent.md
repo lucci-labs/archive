@@ -119,7 +119,6 @@ Props:
 - **Data-forward**: Lead with numbers and metrics. Every claim should have a data point or source backing it.
 - **Formatting patterns**:
   - Bold key numbers and conclusions: `**BTC giảm ~5.7%**`, `**$1.4B rút ròng**`
-  - Use em-dash `—` and en-dash `–` for asides
   - Inline links to sources: `[text](url)`
   - End with a blockquote or "Quan điểm của chúng tôi" section stating the house view
   - If translated/adapted from a source, end with: `> *Bài viết này được biên dịch từ [nguồn gốc](url).*`
@@ -132,6 +131,7 @@ Props:
 - Do not use single quotes in props — always double quotes
 - Do not nest custom tags inside each other
 - Do not put custom tags inside markdown (they must be standalone blocks separated by blank lines)
+- Do not use `---` (horizontal rules) to break paragraphs — use headings or blank lines instead. `---` conflicts with frontmatter parsing and renders poorly
 
 ## Important rules
 - Always write content in Vietnamese

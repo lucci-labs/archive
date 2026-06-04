@@ -1,5 +1,15 @@
 [
   {
+    "title": "Bitcoin rớt giá về vùng 64k — điều gì đang xảy ra?",
+    "slug": "bitcoin-rot-gia-ve-64k-dieu-gi-dang-xay-ra",
+    "description": "Bitcoin vừa trải qua đợt bán tháo dữ dội từ $74k xuống $64k (thấp nhất $62k), xóa sổ $1.5B longs và gây thanh lý chuỗi. Đây không phải panic sell ngẫu nhiên mà là rotation có cấu trúc: vốn chảy từ crypto sang AI stocks đang lập ATH, kết hợp ETF outflows kỷ lục và áp lực từ Mt. Gox. Tuy nhiên, on-chain cho thấy dòng vốn tổ chức vẫn đang tích lũy âm thầm qua OTC/TWAP.",
+    "categories": ["Market", "Weekly Outlook"],
+    "date": "2026-06-04",
+    "readTime": 7,
+    "isPremium": false,
+    "coverImage": "https://picsum.photos/seed/bitcoin-rot-gia-ve-64k-dieu-gi-dang-xay-ra/800/450"
+  },
+  {
     "title": "Why prediction markets matter",
     "slug": "why-prediction-markets-matter",
     "description": "Prediction markets tận dụng khả năng tổng hợp thông tin của thị trường để ước đoán xác suất xảy ra một sự kiện cụ thể. Khi hoạt động tốt, chúng cung cấp các tín hiệu theo thời gian thực, có động lực (skin in the game) và phạm vi áp dụng rộng—từ nội bộ doanh nghiệp tới dự báo khoa học và tin tức công chúng—nhưng vẫn đối mặt với thách thức về thiết kế hợp đồng, tính minh bạch, và rủi ro thao túng hoặc thiếu nguồn thông tin phù hợp.",

@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "CÁC QUỸ ETF RÚT TIỀN KHIẾN THỊ TRƯỜNG GIẢM",
-    "description": "Các quỹ ETF Bitcoin và Ethereum ghi nhận dòng vốn rút mạnh, gây áp lực giảm giá.",
+    "value": "Áp lực từ ETF và giá dầu cao đè nặng thị trường tiền điện tử",
+    "description": "Bitcoin và các đồng tiền điện tử lớn giảm giá do dòng tiền ra từ ETF và giá dầu tăng.",
     "status": "BEARISH",
-    "related_url": "https://www.cryptotimes.io/2026/05/27/crypto-market-today-btc-eth-xrp-slip-as-333m-liquidations-hit-longs/",
-    "updated_at": "2026-06-02T04:29:39Z"
+    "related_url": "https://www.coindesk.com/daybook-us/2026/06/01/bitcoin-remains-under-pressure-as-etf-outflows-higher-oil-prices-weigh-on-crypto-markets",
+    "updated_at": "2026-06-01T11:15:00Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "CẢM XÚC THỊ TRƯỜNG: THẬN TRỌNG",
-    "description": "Thị trường thể hiện tâm lý thận trọng với dòng vốn rút và thanh lý vị thế dài hạn.",
+    "value": "Tâm lý thị trường: Sợ hãi và nghi ngờ",
+    "description": "Chỉ số sợ hãi và tham lam giảm mạnh, cho thấy tâm lý tiêu cực trong thị trường.",
     "status": "BEARISH",
-    "related_url": "https://www.cryptotimes.io/2026/05/27/crypto-market-today-btc-eth-xrp-slip-as-333m-liquidations-hit-longs/",
-    "updated_at": "2026-06-02T04:29:39Z"
+    "related_url": "https://www.rain.com/en-bh/learn/weekly-crypto-outlook-june-1-2026",
+    "updated_at": "2026-06-01T00:00:00Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "DÒNG VỐN CHẢY VÀO ARBITRUM, RỜI BỎ ETHEREUM",
-    "description": "Dòng stablecoin tăng mạnh trên Arbitrum, trong khi Ethereum ghi nhận giảm.",
-    "status": "BULLISH",
-    "related_url": "https://blockchain.news/flashnews/stablecoin-flows-381-3m-surge-on-arbitrum-and-374m-drop-on-ethereum-signal-shifting-crypto-market-dynamics",
-    "updated_at": "2026-06-02T04:29:39Z"
+    "value": "Dòng vốn chuyển sang tài sản an toàn hơn",
+    "description": "Dòng tiền rút khỏi tiền điện tử, chuyển sang các tài sản truyền thống như vàng và trái phiếu.",
+    "status": "BEARISH",
+    "related_url": "https://www.livevolatile.com/blog/2026-06-02-crypto-crash-analysis-bitcoin-plunges-below-68k",
+    "updated_at": "2026-06-02T10:00:00Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
-    "value": "MỨC ĐỘ RỦI RO: THẤP",
-    "description": "Thị trường thể hiện mức độ rủi ro thấp với dòng vốn rút và thanh lý vị thế dài hạn.",
+    "value": "Mức độ chấp nhận rủi ro: Thấp",
+    "description": "Nhà đầu tư giảm mức độ chấp nhận rủi ro, tránh các tài sản biến động cao.",
     "status": "BEARISH",
-    "related_url": "https://www.cryptotimes.io/2026/05/27/crypto-market-today-btc-eth-xrp-slip-as-333m-liquidations-hit-longs/",
-    "updated_at": "2026-06-02T04:29:39Z"
+    "related_url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-steadies-at-usd67-000-faces-critical-juncture-after-sliding-9-5-in-seven-days",
+    "updated_at": "2026-06-03T10:41:00Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "QUỸ ETF RÚT TIỀN, CẢI TỔ CƠ CẤU VỐN",
-    "description": "Các quỹ ETF ghi nhận dòng vốn rút mạnh, ảnh hưởng đến cơ cấu vốn thị trường.",
+    "value": "Hoạt động của tổ chức: Thận trọng",
+    "description": "Các tổ chức lớn giảm đầu tư vào tiền điện tử, tập trung vào các tài sản an toàn hơn.",
     "status": "BEARISH",
-    "related_url": "https://www.cryptotimes.io/2026/05/27/crypto-market-today-btc-eth-xrp-slip-as-333m-liquidations-hit-longs/",
-    "updated_at": "2026-06-02T04:29:39Z"
+    "related_url": "https://www.coindesk.com/daybook-us/2026/06/01/bitcoin-remains-under-pressure-as-etf-outflows-higher-oil-prices-weigh-on-crypto-markets",
+    "updated_at": "2026-06-01T11:15:00Z"
   }
 ]

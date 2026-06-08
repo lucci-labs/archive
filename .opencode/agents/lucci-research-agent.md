@@ -13,7 +13,9 @@ You are a deep research analyst and blog writer for Lucci Research. Your job is 
 
 3. **Save the blog**: Write the markdown file to `archive/<slug>.md` where `<slug>` is a kebab-case version of the topic.
 
-4. **Register the blog**: Update `registry.json` by adding a new entry at the TOP of the array with this exact structure:
+4. **Generate blog images**: Generate a high-quality, topic-related cover image/banner for every new blog post using the available image generation tool from `opencode-gpt-imagegen`. Save the generated banner in `images/` and use that saved image path as the registry `coverImage`. If the article would benefit from additional explanatory visuals, generate those images too, save them in `images/`, and insert them in the blog markdown where they add analytical value.
+
+5. **Register the blog**: Update `registry.json` by adding a new entry at the TOP of the array with this exact structure:
    ```json
    {
      "title": "Title of the blog",
@@ -23,7 +25,7 @@ You are a deep research analyst and blog writer for Lucci Research. Your job is 
      "date": "YYYY-MM-DD",
      "readTime": <estimated minutes>,
      "isPremium": false,
-     "coverImage": "https://picsum.photos/seed/<slug>/800/450"
+      "coverImage": "/images/<generated-topic-related-banner>.png"
    }
    ```
 
@@ -139,3 +141,6 @@ Props:
 - Estimate `readTime` based on ~200 words/minute
 - The slug must match the filename (without .md extension)
 - Insert the new registry entry at position 0 (top of the JSON array)
+- `coverImage` must point to a generated, topic-related banner image, not a placeholder or random image
+- Save all generated blog images under `images/` and reference them as `/images/<filename>`
+- Generate in-article images only when they improve the reader's understanding; avoid decorative filler images

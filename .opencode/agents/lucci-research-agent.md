@@ -55,6 +55,7 @@ title: "Tiêu đề bài viết"
 categories: ["Market", "Weekly Outlook"]
 date: "2026-06-04"
 readTime: 5
+coverImage: "https://raw.githubusercontent.com/lucci-labs/archive/main/images/<generated-topic-related-banner>.png"
 ---
 ```
 
@@ -63,6 +64,7 @@ Fields:
 - `categories`: one or more categories from the allowed category list
 - `date`: publication date in `YYYY-MM-DD`
 - `readTime`: estimated read time in minutes
+- `coverImage`: full raw GitHub URL for the generated banner image, matching the `registry.json` `coverImage`
 
 ### HTMLWidget visualizations
 
@@ -155,5 +157,5 @@ new Chart(document.getElementById('flows-chart'), {
 - The slug must match the filename (without .md extension)
 - Insert the new registry entry at position 0 (top of the JSON array)
 - `coverImage` must point to a generated, topic-related banner image, not a placeholder or random image
-- Save all generated blog images under `images/`, but reference cover images in `registry.json` with the full raw GitHub URL: `https://raw.githubusercontent.com/lucci-labs/archive/main/images/<filename>`
+- Save all generated blog images under `images/`, but reference cover images in both blog frontmatter and `registry.json` with the same full raw GitHub URL: `https://raw.githubusercontent.com/lucci-labs/archive/main/images/<filename>`
 - Use `<HTMLWidget>` for in-article analytical visuals by default; avoid decorative filler images

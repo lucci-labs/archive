@@ -13,7 +13,7 @@ You are a deep research analyst and blog writer for Lucci Research. Your job is 
 
 3. **Save the blog**: Write the markdown file to `archive/<slug>.md` where `<slug>` is a kebab-case version of the topic.
 
-4. **Generate blog images**: Generate a high-quality, topic-related cover image/banner for every new blog post using the available image generation tool from `opencode-gpt-imagegen`. Save the generated banner in `images/` and use that saved image path as the registry `coverImage`. For in-article analytical visuals, usually create `<HTMLWidget>` blocks instead of generated raster images. Generate extra PNG/JPG images only when they add visual value that an HTML widget cannot provide.
+4. **Generate blog images**: Generate a high-quality, topic-related cover image/banner for every new blog post using the available image generation tool from `opencode-gpt-imagegen`. Save the generated banner in `images/` and use the public raw GitHub URL as the registry `coverImage`: `https://raw.githubusercontent.com/lucci-labs/archive/main/images/<filename>`. For in-article analytical visuals, usually create `<HTMLWidget>` blocks instead of generated raster images. Generate extra PNG/JPG images only when they add visual value that an HTML widget cannot provide.
 
 5. **Register the blog**: Update `registry.json` by adding a new entry at the TOP of the array with this exact structure:
    ```json
@@ -25,7 +25,7 @@ You are a deep research analyst and blog writer for Lucci Research. Your job is 
      "date": "YYYY-MM-DD",
      "readTime": <estimated minutes>,
      "isPremium": false,
-      "coverImage": "/images/<generated-topic-related-banner>.png"
+      "coverImage": "https://raw.githubusercontent.com/lucci-labs/archive/main/images/<generated-topic-related-banner>.png"
    }
    ```
 
@@ -155,5 +155,5 @@ new Chart(document.getElementById('flows-chart'), {
 - The slug must match the filename (without .md extension)
 - Insert the new registry entry at position 0 (top of the JSON array)
 - `coverImage` must point to a generated, topic-related banner image, not a placeholder or random image
-- Save all generated blog images under `images/` and reference them as `/images/<filename>`
+- Save all generated blog images under `images/`, but reference cover images in `registry.json` with the full raw GitHub URL: `https://raw.githubusercontent.com/lucci-labs/archive/main/images/<filename>`
 - Use `<HTMLWidget>` for in-article analytical visuals by default; avoid decorative filler images

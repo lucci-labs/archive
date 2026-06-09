@@ -13,7 +13,7 @@ BTC đã phá xuống dưới **$62k**, giảm khoảng **14% trong tuần** và
 ### Key takeaways
 
 - **BTC thủng $62k**, có lúc về quanh **$59.1k** trước khi hồi về vùng $63k; ETH quanh **$1,660**, SOL quanh **$65-66** và vẫn giảm hai chữ số theo tuần.
-- **ETF flows là biến số số 1**: theo Wintermute, 10 phiên rút ròng liên tiếp tới 30/5 đạt khoảng **$2.97B**; dữ liệu SoSoValue/Farside được CoinTelegraph và Bitcoin.com tổng hợp cho thấy tuần kết thúc 5/6 BTC ETFs rút thêm **~$1.72B**, trong đó IBIT chiếm khoảng **$1.34B**.
+- **ETF flows là biến số số 1**: 10 phiên rút ròng liên tiếp tới 30/5 đạt khoảng **$2.97B**; dữ liệu SoSoValue/Farside được CoinTelegraph và Bitcoin.com tổng hợp cho thấy tuần kết thúc 5/6 BTC ETFs rút thêm **~$1.72B**, trong đó IBIT chiếm khoảng **$1.34B**.
 - **Macro xấu cho risk assets**: BLS báo cáo Mỹ tạo **172k việc làm trong tháng 5**, unemployment giữ **4.3%**; ISM Services PMI lên **54.5**, prices index **71.3** — cao nhất từ 8/2022. Lợi suất 10Y tiến về **~4.55%**, làm giảm xác suất Fed sớm easing.
 - **AI trade bắt đầu nứt**: Nasdaq giảm **4.7%** trong tuần, S&P có tuần giảm đầu tiên từ tháng 3. Khi equity momentum yếu đi, crypto — vốn đã thiếu flow — bị bán mạnh hơn.
 
@@ -33,7 +33,7 @@ BTC đã phá xuống dưới **$62k**, giảm khoảng **14% trong tuần** và
     <div style="border:1px solid #1E1E1E;background:#080808;padding:16px"><div style="color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.8px;text-transform:uppercase">Nasdaq week</div><div style="color:#FF3B5C;font-size:26px;font-family:'JetBrains Mono',monospace;margin-top:10px">-4.7%</div><div style="color:#D1D1D1;font-size:12px;margin-top:8px">AI trade cracked</div></div>
   </div>
   <div style="height:310px"><canvas id="stress-chart"></canvas></div>
-  <div style="border-top:1px solid #1E1E1E;margin-top:18px;padding-top:12px;color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase">SOURCE: WINTERMUTE, BLS, ISM, SOSOVALUE/FARSIDE VIA MARKET REPORTS; LUCCI RESEARCH COMPILED</div>
+  <div style="border-top:1px solid #1E1E1E;margin-top:18px;padding-top:12px;color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase">SOURCE: BLS, ISM, SOSOVALUE/FARSIDE VIA MARKET REPORTS; LUCCI RESEARCH COMPILED</div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
@@ -64,19 +64,19 @@ new Chart(ctx, {
 
 ### Macro: dữ liệu tốt lại trở thành tin xấu
 
-Bài của [Wintermute OTC Desk](https://www.wintermute.com/insights/market-color/market-update/market-update-8-june-2026) đặt tiêu đề đúng tinh thần tuần này: **Good News Is Bad News**. Báo cáo việc làm tháng 5 của Mỹ từ [BLS](https://www.bls.gov/news.release/archives/empsit_06052026.htm) cho thấy nonfarm payrolls tăng **172k**, cao hơn nhiều so với kỳ vọng quanh **80-85k**, trong khi April được revised lên **179k** từ mức công bố trước đó **115k**. Unemployment giữ **4.3%**.
+Tinh thần tuần này có thể tóm gọn trong một câu: **good news is bad news**. Báo cáo việc làm tháng 5 của Mỹ từ [BLS](https://www.bls.gov/news.release/archives/empsit_06052026.htm) cho thấy nonfarm payrolls tăng **172k**, cao hơn nhiều so với kỳ vọng quanh **80-85k**, trong khi April được revised lên **179k** từ mức công bố trước đó **115k**. Unemployment giữ **4.3%**.
 
 Một nền kinh tế còn tạo việc làm tốt thường là tin tốt. Nhưng trong regime hiện tại, đó là vấn đề: Fed không có lý do để cắt lãi sớm nếu labor headline vẫn mạnh và lạm phát dịch vụ vẫn nóng. ISM Services PMI tháng 5 tăng lên **54.5**, còn prices index lên **71.3**, mức cao nhất từ tháng 8/2022 theo các tổng hợp thị trường. Lợi suất 10Y vì vậy nhảy về vùng **4.53-4.55%**.
 
-Điểm đáng chú ý: bên dưới headline vẫn có vết nứt. Wintermute nhắc tới jobless claims tăng lên **225k**, mức cao nhất từ tháng 2, và announced layoffs tăng tháng thứ ba liên tiếp, trong đó AI được các doanh nghiệp nêu như một lý do chính. Nói cách khác, labor market không “nóng đều”; nó đang mỏng dần ở rìa nhưng headline đủ mạnh để giữ Fed hawkish.
+Điểm đáng chú ý: bên dưới headline vẫn có vết nứt. Jobless claims tăng lên **225k**, mức cao nhất từ tháng 2, và announced layoffs tăng tháng thứ ba liên tiếp, trong đó AI được các doanh nghiệp nêu như một lý do chính. Nói cách khác, labor market không “nóng đều”; nó đang mỏng dần ở rìa nhưng headline đủ mạnh để giữ Fed hawkish.
 
 Với crypto, đây là môi trường khó: **rates cao hơn làm tăng discount rate cho tài sản high-beta**, dollar mạnh hơn hút thanh khoản, còn kỳ vọng easing bị đẩy xa hơn. Nếu CPI ngày 10/6 tiếp tục nóng, cú hồi từ $59k lên $63k rất dễ chỉ là relief rally.
 
 ### Equities: AI trade không còn miễn nhiễm
 
-Hai tuần trước, câu chuyện là crypto lag equities: Nasdaq và software còn chạy, trong khi BTC/ETH bị ETF outflows kéo xuống. Tuần này lớp bảo vệ đó cũng mất. Wintermute ghi nhận **Nasdaq giảm 4.7%**, S&P có tuần giảm đầu tiên từ tháng 3. Việc Nvidia có kết quả mạnh nhưng stock không phản ứng nhiều trước đó là tín hiệu exhaustion; đến tuần 8/6, thị trường bắt đầu chốt lời mạnh hơn ở nhóm AI.
+Hai tuần trước, câu chuyện là crypto lag equities: Nasdaq và software còn chạy, trong khi BTC/ETH bị ETF outflows kéo xuống. Tuần này lớp bảo vệ đó cũng mất. **Nasdaq giảm 4.7%**, S&P có tuần giảm đầu tiên từ tháng 3. Việc Nvidia có kết quả mạnh nhưng stock không phản ứng nhiều trước đó là tín hiệu exhaustion; đến tuần 8/6, thị trường bắt đầu chốt lời mạnh hơn ở nhóm AI.
 
-Nguyên nhân không chỉ là valuation. Một pipeline IPO quy mô rất lớn — Wintermute nhắc tới SpaceX ngày 12/6, các nguồn thị trường khác cũng nói tới Anthropic — có thể hút bớt liquidity từ những cổ phiếu AI đã tăng mạnh. Nếu nhà đầu tư muốn tham gia các placement trillion-dollar-plus, cách dễ nhất là bán bớt các winner đã crowded.
+Nguyên nhân không chỉ là valuation. Một pipeline IPO quy mô rất lớn — nổi bật là SpaceX ngày 12/6, cùng các thương vụ AI/private tech khác như Anthropic — có thể hút bớt liquidity từ những cổ phiếu AI đã tăng mạnh. Nếu nhà đầu tư muốn tham gia các placement trillion-dollar-plus, cách dễ nhất là bán bớt các winner đã crowded.
 
 Điều này quan trọng với crypto vì suốt tháng 5, equities là nơi retail và vốn risk-on chọn ở lại. Khi AI trade còn tăng, crypto yếu nhưng chưa panic. Khi AI trade nứt, phần thị trường có cấu trúc flow yếu hơn — BTC/ETH — bị bán trước.
 
@@ -86,7 +86,7 @@ Strategy bán **32 BTC** trong giai đoạn 26-31/5 ở giá trung bình **$77,1
 
 Về mặt cơ học, **32 BTC gần như không đáng kể**: CoinDesk tính con số này chỉ khoảng **0.0038%** lượng BTC Strategy nắm giữ, với balance sheet còn **843,706 BTC** tại cuối tháng 5. Nhưng thị trường không giao dịch trên quy mô tuyệt đối; nó giao dịch trên narrative và positioning. “Saylor bán” xuất hiện đúng lúc bid ETF yếu, OTC participation giảm và retail đang chase equities — vì vậy headline trở thành que diêm châm vào thị trường đã rò khí.
 
-Dữ liệu ETF xác nhận vấn đề lớn hơn. Wintermute cho biết BTC ETFs có **10 phiên rút ròng liên tiếp tới 30/5**, tổng khoảng **$2.97B**, khiến tháng 5 rút ròng **$2.43B**, tháng tệ nhất của 2026. Sau đó, các báo cáo dựa trên SoSoValue/Farside cho tuần kết thúc 5/6 cho thấy:
+Dữ liệu ETF xác nhận vấn đề lớn hơn. BTC ETFs có **10 phiên rút ròng liên tiếp tới 30/5**, tổng khoảng **$2.97B**, khiến tháng 5 rút ròng **$2.43B**, tháng tệ nhất của 2026. Sau đó, các báo cáo dựa trên SoSoValue/Farside cho tuần kết thúc 5/6 cho thấy:
 
 - BTC spot ETFs rút thêm khoảng **$1.72B** trong tuần, tuần rút vốn thứ tư liên tiếp.
 - IBIT của BlackRock chiếm khoảng **$1.34B** outflows; FBTC mất khoảng **$201.9M**, GBTC khoảng **$144.3M**.
@@ -97,7 +97,7 @@ Dữ liệu ETF xác nhận vấn đề lớn hơn. Wintermute cho biết BTC ET
 
 ### Technical: vùng $60k là tâm lý, không phải hỗ trợ dày
 
-Wintermute chỉ ra một chi tiết rất đáng chú ý: trên đường đi lên năm 2024, BTC **không dành nhiều thời gian trong vùng $50-59k**. Điều đó khiến cấu trúc support ở dưới $60k khá mỏng. Khi price discovery đi xuống vùng ít volume history, technical levels kém đáng tin hơn; flow mới là thứ quyết định hướng.
+Một chi tiết kỹ thuật rất đáng chú ý: trên đường đi lên năm 2024, BTC **không dành nhiều thời gian trong vùng $50-59k**. Điều đó khiến cấu trúc support ở dưới $60k khá mỏng. Khi price discovery đi xuống vùng ít volume history, technical levels kém đáng tin hơn; flow mới là thứ quyết định hướng.
 
 Các vùng cần theo dõi trong ngắn hạn:
 
@@ -110,9 +110,9 @@ Các vùng cần theo dõi trong ngắn hạn:
 
 ETH giảm mạnh hơn BTC theo tuần, có lúc về vùng **$1,540-1,570** trước khi hồi quanh **$1,660**. Vấn đề của ETH vẫn là narrative: network có hoạt động, staking và L2 vẫn phát triển, nhưng **token value capture chưa đủ thuyết phục** trong mắt dòng vốn ETF. Khi ETH ETFs rút gần **$900M** trong 4 tuần, thị trường không cần tranh luận quá nhiều về narrative; flow đang bỏ phiếu bằng tiền.
 
-SOL quanh **$65-66**, giảm gần **19%** theo tuần theo dữ liệu thị trường ngày 8/6. High-beta altcoins không thể đứng vững khi BTC thủng support và funding/leverage bị reset. HYPE là ngoại lệ tương đối nhờ câu chuyện perps/on-chain exchange và ETF cấu trúc riêng, nhưng ngay cả HYPE cũng “felt gravity” như Wintermute nói — trong tuần risk-off sâu, correlation sẽ tăng.
+SOL quanh **$65-66**, giảm gần **19%** theo tuần theo dữ liệu thị trường ngày 8/6. High-beta altcoins không thể đứng vững khi BTC thủng support và funding/leverage bị reset. HYPE là ngoại lệ tương đối nhờ câu chuyện perps/on-chain exchange và ETF cấu trúc riêng, nhưng ngay cả HYPE cũng bị kéo xuống bởi beta thị trường — trong tuần risk-off sâu, correlation sẽ tăng.
 
-ZEC là case riêng: Wintermute nhắc tới soundness bug trong shielded pool, về lý thuyết có thể cho phép counterfeit supply không bị phát hiện. Dù emergency fork diễn ra và chưa thấy exploit, niềm tin với privacy coin bị đánh trực diện; ZEC giảm **40-50%** từ đỉnh. Với privacy assets, **confidence in shielded supply is the product** — mất niềm tin là mất định giá.
+ZEC là case riêng: soundness bug trong shielded pool, về lý thuyết, có thể cho phép counterfeit supply không bị phát hiện. Dù emergency fork diễn ra và chưa thấy exploit, niềm tin với privacy coin bị đánh trực diện; ZEC giảm **40-50%** từ đỉnh. Với privacy assets, **confidence in shielded supply is the product** — mất niềm tin là mất định giá.
 
 ### Điều gì có thể đảo chiều?
 

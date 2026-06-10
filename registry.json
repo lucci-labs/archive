@@ -1,5 +1,15 @@
 [
   {
+    "title": "Ondo Perps: Tokenized Stocks Just Got Leverage",
+    "slug": "ondo-perps-tokenized-stocks",
+    "description": "Ondo has launched 24/7 perpetual futures on tokenized U.S. stocks, ETFs, and commodities, with up to 20x leverage for non-U.S. users. Lucci Research argues the real product is not leverage itself, but cross-collateralization: turning tokenized securities into productive margin for on-chain prime brokerage.",
+    "categories": ["Market", "Project Analysis"],
+    "date": "2026-06-10",
+    "readTime": 7,
+    "isPremium": false,
+    "coverImage": "https://raw.githubusercontent.com/lucci-labs/archive/main/images/ondo-perps-tokenized-stocks-banner.png"
+  },
+  {
     "title": "Cập nhật thị trường 8/6/2026: Khi bid ETF biến mất",
     "slug": "market-update-8-june-2026",
     "description": "BTC thủng $62k, ETF outflows tăng tốc và Strategy bán 32 BTC đúng lúc AI equities bắt đầu nứt. Lucci Research cho rằng cú giảm này là một flow shock được kích hoạt bởi narrative shock: muốn gọi đáy cần thấy ETF flows quay lại và macro hạ nhiệt sau CPI/FOMC.",

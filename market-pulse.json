@@ -2,46 +2,46 @@
   {
     "id": "narrative",
     "label": "MARKET_NARRATIVE",
-    "value": "Áp lực từ ETF và giá dầu cao đè nặng thị trường tiền điện tử",
-    "description": "Bitcoin và các đồng tiền điện tử lớn giảm giá do dòng tiền ra từ ETF và giá dầu tăng.",
+    "value": "MARKET EXPERIENCES SIGNIFICANT DOWNTREND DUE TO LIQUIDATIONS AND ETF OUTFLOWS",
+    "description": "Market downturn driven by forced liquidations and sustained ETF outflows.",
     "status": "BEARISH",
-    "related_url": "https://www.coindesk.com/daybook-us/2026/06/01/bitcoin-remains-under-pressure-as-etf-outflows-higher-oil-prices-weigh-on-crypto-markets",
-    "updated_at": "2026-06-01T11:15:00Z"
+    "related_url": "https://coinmarketcap.com/top-stories/6a226761f98ad067b44d4ac2/",
+    "updated_at": "2026-06-05T06:06:00Z"
   },
   {
     "id": "sentiment",
     "label": "MARKET_SENTIMENT",
-    "value": "Tâm lý thị trường: Sợ hãi và nghi ngờ",
-    "description": "Chỉ số sợ hãi và tham lam giảm mạnh, cho thấy tâm lý tiêu cực trong thị trường.",
+    "value": "EXTREME_FEAR_AMONG_INVESTORS",
+    "description": "Crypto Fear & Greed Index drops to 12, indicating extreme fear.",
     "status": "BEARISH",
-    "related_url": "https://www.rain.com/en-bh/learn/weekly-crypto-outlook-june-1-2026",
-    "updated_at": "2026-06-01T00:00:00Z"
+    "related_url": "https://coinstats.app/ai/a/crypto-news-update-03-June-2026",
+    "updated_at": "2026-06-03T00:36:00Z"
   },
   {
     "id": "rotation",
     "label": "CAPITAL_ROTATION",
-    "value": "Dòng vốn chuyển sang tài sản an toàn hơn",
-    "description": "Dòng tiền rút khỏi tiền điện tử, chuyển sang các tài sản truyền thống như vàng và trái phiếu.",
-    "status": "BEARISH",
-    "related_url": "https://www.livevolatile.com/blog/2026-06-02-crypto-crash-analysis-bitcoin-plunges-below-68k",
-    "updated_at": "2026-06-02T10:00:00Z"
+    "value": "SHIFT_TOWARDS_STABLECOINS_AND_REGULATED_ASSETS",
+    "description": "Investors move funds into stablecoins and regulated assets amid market volatility.",
+    "status": "NEUTRAL",
+    "related_url": "https://sergeytereshkin.com/publications/bitcoin-and-ethereum-under-pressure-from-etf-outflows-stablecoins-rise-regulated-derivatives-transform-the-market-cryptocurrency-news-june-3-2026",
+    "updated_at": "2026-06-03T00:00:00Z"
   },
   {
     "id": "risk",
     "label": "RISK_APPETITE",
-    "value": "Mức độ chấp nhận rủi ro: Thấp",
-    "description": "Nhà đầu tư giảm mức độ chấp nhận rủi ro, tránh các tài sản biến động cao.",
+    "value": "DECREASED_LEVERAGE_AND_INCREASED_CAUTION",
+    "description": "Traders reduce leverage and exercise caution following significant liquidations.",
     "status": "BEARISH",
-    "related_url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-steadies-at-usd67-000-faces-critical-juncture-after-sliding-9-5-in-seven-days",
-    "updated_at": "2026-06-03T10:41:00Z"
+    "related_url": "https://coinmarketcap.com/top-stories/6a226761f98ad067b44d4ac2/",
+    "updated_at": "2026-06-05T06:06:00Z"
   },
   {
     "id": "institutional",
     "label": "INSTITUTIONAL_FOCUS",
-    "value": "Hoạt động của tổ chức: Thận trọng",
-    "description": "Các tổ chức lớn giảm đầu tư vào tiền điện tử, tập trung vào các tài sản an toàn hơn.",
+    "value": "INSTITUTIONS_DE-RISKING_AND_MONITORING_REGULATORY_ENVIRONMENT",
+    "description": "Institutions reduce exposure and monitor regulatory developments amid market downturn.",
     "status": "BEARISH",
-    "related_url": "https://www.coindesk.com/daybook-us/2026/06/01/bitcoin-remains-under-pressure-as-etf-outflows-higher-oil-prices-weigh-on-crypto-markets",
-    "updated_at": "2026-06-01T11:15:00Z"
+    "related_url": "https://sergeytereshkin.com/publications/bitcoin-and-ethereum-under-pressure-from-etf-outflows-stablecoins-rise-regulated-derivatives-transform-the-market-cryptocurrency-news-june-3-2026",
+    "updated_at": "2026-06-03T00:00:00Z"
   }
 ]

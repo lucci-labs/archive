@@ -60,28 +60,24 @@ In [Morpho's documentation](https://docs.morpho.org/learn/concepts/market/), a v
     <div style="border:1px solid #1E1E1E;padding:16px"><div style="color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.4px;text-transform:uppercase">Annualized Fees</div><div style="color:#00FFA3;font-family:'JetBrains Mono',monospace;font-size:22px;font-weight:700;margin-top:8px">$175M-$203M</div></div>
     <div style="border:1px solid #1E1E1E;padding:16px"><div style="color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.4px;text-transform:uppercase">2025 Users</div><div style="color:#FFFFFF;font-family:'JetBrains Mono',monospace;font-size:22px;font-weight:700;margin-top:8px">1.4M+</div></div>
   </div>
-  <canvas id="morpho-bars" style="width:100%;height:290px"></canvas>
+  <div class="bar-panel" style="border:1px solid #1E1E1E;padding:16px;background:#080808;box-sizing:border-box">
+    <div style="display:grid;gap:12px">
+      <div class="bar-row"><div>TVL LOW</div><div class="track"><span style="width:88%;background:#00FFA3"></span></div><strong>$6.4B</strong></div>
+      <div class="bar-row"><div>TVL HIGH</div><div class="track"><span style="width:100%;background:#00FFA3"></span></div><strong>$7.3B</strong></div>
+      <div class="bar-row"><div>ACTIVE LOANS LOW</div><div class="track"><span style="width:47%;background:#D1D1D1"></span></div><strong>$3.4B</strong></div>
+      <div class="bar-row"><div>ACTIVE LOANS HIGH</div><div class="track"><span style="width:62%;background:#D1D1D1"></span></div><strong>$4.5B</strong></div>
+      <div class="bar-row"><div>ANNUALIZED FEES</div><div class="track"><span style="width:28%;background:#FF3B5C"></span></div><strong>$203M</strong></div>
+    </div>
+  </div>
   <div style="border-top:1px solid #1E1E1E;margin-top:18px;padding-top:12px;color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase">SOURCE: DEFILLAMA MORPHO / MORPHO BLUE, MORPHO BLOG UPDATES. VALUES ROUNDED.</div>
 </div>
-<style>@media(max-width:760px){#morpho-snapshot .metric-grid{grid-template-columns:1fr!important}}</style>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-new Chart(document.getElementById('morpho-bars'), {
-  type: 'bar',
-  data: {
-    labels: ['TVL LOW', 'TVL HIGH', 'ACTIVE LOANS LOW', 'ACTIVE LOANS HIGH', 'ANNUALIZED FEES'],
-    datasets: [{ data: [6.4, 7.3, 3.4, 4.5, 0.203], backgroundColor: ['#00FFA3','#00FFA3','#D1D1D1','#D1D1D1','#FF3B5C'], borderColor: ['#00FFA3','#00FFA3','#D1D1D1','#D1D1D1','#FF3B5C'], borderWidth: 1 }]
-  },
-  options: {
-    responsive:true, maintainAspectRatio:false,
-    plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label:function(ctx){ return ctx.raw >= 1 ? '$' + ctx.raw + 'B' : '$203M'; } } } },
-    scales:{
-      x:{ ticks:{ color:'#888888', font:{family:'monospace', size:10}, maxRotation:0, minRotation:0 }, grid:{ color:'#1E1E1E' } },
-      y:{ ticks:{ color:'#888888', font:{family:'monospace', size:10}, callback:function(v){ return '$'+v+'B'; } }, grid:{ color:'#333333', borderDash:[4,4] } }
-    }
-  }
-});
-</script>
+<style>
+#morpho-snapshot .bar-row{display:grid;grid-template-columns:150px 1fr 76px;gap:12px;align-items:center;color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;min-width:0}
+#morpho-snapshot .track{height:20px;border:1px solid #1E1E1E;background:#0B0B0B;position:relative;min-width:0}
+#morpho-snapshot .track span{display:block;height:100%;box-shadow:0 0 18px rgba(0,255,163,0.10)}
+#morpho-snapshot .bar-row strong{color:#FFFFFF;font-size:12px;text-align:right;white-space:nowrap}
+@media(max-width:760px){#morpho-snapshot{padding:18px!important}#morpho-snapshot .metric-grid{grid-template-columns:1fr!important}#morpho-snapshot .bar-row{grid-template-columns:1fr;gap:6px}#morpho-snapshot .bar-row strong{text-align:left}}
+</style>
 </HTMLWidget>
 
 ### Why the architecture is different from Aave and Compound
@@ -173,13 +169,32 @@ The key point: **MORPHO is not currently a revenue-share token**. It is a claim 
 
 <HTMLWidget>
 <div id="tokenomics-widget" style="background:#0A0A0A;border:1px solid #1E1E1E;color:#D1D1D1;font-family:Inter,Arial,sans-serif;padding:28px;width:100%;box-sizing:border-box">
-  <div style="display:flex;justify-content:space-between;gap:22px;flex-wrap:wrap;align-items:flex-start">
-    <div style="flex:1;min-width:260px">
+  <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:start" class="token-grid">
+    <div style="min-width:0">
       <div style="color:#FFFFFF;font-family:'Playfair Display',Georgia,serif;font-size:27px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px">MORPHO TOKEN DISTRIBUTION</div>
       <div style="color:#888888;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;margin-bottom:22px">MAX SUPPLY: 1,000,000,000 MORPHO</div>
-      <canvas id="morpho-donut" style="width:100%;height:300px"></canvas>
+      <div style="border:1px solid #1E1E1E;background:#080808;padding:16px;box-sizing:border-box">
+        <div style="height:28px;display:flex;width:100%;border:1px solid #1E1E1E;box-sizing:border-box;overflow:hidden">
+          <span title="Governance 35.4%" style="width:35.4%;background:#00FFA3"></span>
+          <span title="Strategic Partners 27.5%" style="width:27.5%;background:#D1D1D1"></span>
+          <span title="Founders 15.2%" style="width:15.2%;background:#FFFFFF"></span>
+          <span title="Association 6.3%" style="width:6.3%;background:#444444"></span>
+          <span title="Contributor Reserve 5.8%" style="width:5.8%;background:#333333"></span>
+          <span title="Users / Launch Pools 4.9%" style="width:4.9%;background:#FF3B5C"></span>
+          <span title="Early Contributors 4.9%" style="width:4.9%;background:#888888"></span>
+        </div>
+        <div class="alloc-list" style="display:grid;gap:10px;margin-top:16px">
+          <div><span style="background:#00FFA3"></span><b>Governance / DAO</b><strong>35.4%</strong></div>
+          <div><span style="background:#D1D1D1"></span><b>Strategic Partners</b><strong>27.5%</strong></div>
+          <div><span style="background:#FFFFFF"></span><b>Founders</b><strong>15.2%</strong></div>
+          <div><span style="background:#444444"></span><b>Morpho Association</b><strong>6.3%</strong></div>
+          <div><span style="background:#333333"></span><b>Contributor Reserve</b><strong>5.8%</strong></div>
+          <div><span style="background:#FF3B5C"></span><b>Users / Launch Pools</b><strong>4.9%</strong></div>
+          <div><span style="background:#888888"></span><b>Early Contributors</b><strong>4.9%</strong></div>
+        </div>
+      </div>
     </div>
-    <div style="flex:1;min-width:260px;border-left:1px solid #1E1E1E;padding-left:22px">
+    <div style="min-width:0;border-left:1px solid #1E1E1E;padding-left:22px" class="token-cards">
       <div style="display:grid;gap:10px">
         <div style="border:1px solid #1E1E1E;padding:14px"><div style="color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase">Governance / DAO</div><div style="color:#00FFA3;font-family:'JetBrains Mono',monospace;font-size:24px;font-weight:700">35.4%</div></div>
         <div style="border:1px solid #1E1E1E;padding:14px"><div style="color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase">Strategic Partners</div><div style="color:#FFFFFF;font-family:'JetBrains Mono',monospace;font-size:24px;font-weight:700">27.5%</div></div>
@@ -190,14 +205,13 @@ The key point: **MORPHO is not currently a revenue-share token**. It is a claim 
   </div>
   <div style="border-top:1px solid #1E1E1E;margin-top:18px;padding-top:12px;color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase">SOURCE: MORPHO DOCS TOKEN DISTRIBUTION, AS OF NOVEMBER 2024 DISCLOSURE.</div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-new Chart(document.getElementById('morpho-donut'), {
-  type:'doughnut',
-  data:{ labels:['Governance','Strategic Partners','Founders','Association','Contributor Reserve','Users / Launch Pools','Early Contributors'], datasets:[{ data:[35.4,27.5,15.2,6.3,5.8,4.9,4.9], backgroundColor:['#00FFA3','#D1D1D1','#FFFFFF','#444444','#333333','#FF3B5C','#888888'], borderColor:'#0A0A0A', borderWidth:2 }] },
-  options:{ responsive:true, maintainAspectRatio:false, cutout:'64%', plugins:{ legend:{ position:'bottom', labels:{ color:'#D1D1D1', boxWidth:12, font:{family:'monospace', size:10} } } } }
-});
-</script>
+<style>
+#tokenomics-widget .alloc-list div{display:grid;grid-template-columns:12px 1fr 58px;gap:10px;align-items:center;color:#D1D1D1;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.1px;text-transform:uppercase;min-width:0}
+#tokenomics-widget .alloc-list span{width:12px;height:12px;border:1px solid #1E1E1E;box-sizing:border-box}
+#tokenomics-widget .alloc-list b{font-weight:400;color:#D1D1D1;min-width:0;overflow-wrap:anywhere}
+#tokenomics-widget .alloc-list strong{color:#FFFFFF;text-align:right;white-space:nowrap}
+@media(max-width:760px){#tokenomics-widget{padding:18px!important}#tokenomics-widget .token-grid{grid-template-columns:1fr!important}#tokenomics-widget .token-cards{border-left:0!important;padding-left:0!important;border-top:1px solid #1E1E1E;padding-top:18px!important}}
+</style>
 </HTMLWidget>
 
 ### Metrics: what is real and what is not

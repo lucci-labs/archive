@@ -1,5 +1,15 @@
 [
   {
+    "title": "Morpho Deep Analysis: The Lending Network Hiding Under DeFi Apps",
+    "slug": "morpho-project-deep-analysis",
+    "description": "Morpho has become one of DeFi lending's strongest infrastructure bets, with billions in TVL, active loans, and embedded distribution across exchanges, fintech apps, and institutional RWA products. Lucci Research argues the protocol is real, but MORPHO remains a governance-token option on future value capture because current protocol and holder revenue are still zero.",
+    "categories": ["Project Analysis", "Market"],
+    "date": "2026-06-11",
+    "readTime": 14,
+    "isPremium": false,
+    "coverImage": "https://raw.githubusercontent.com/lucci-labs/archive/main/images/morpho-project-deep-analysis-banner.png"
+  },
+  {
     "title": "Ondo Perps: Tokenized Stocks Just Got Leverage",
     "slug": "ondo-perps-tokenized-stocks",
     "description": "Ondo has launched 24/7 perpetual futures on tokenized U.S. stocks, ETFs, and commodities, with up to 20x leverage for non-U.S. users. Lucci Research argues the real product is not leverage itself, but cross-collateralization: turning tokenized securities into productive margin for on-chain prime brokerage.",

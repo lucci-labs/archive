@@ -62,18 +62,18 @@ h2 { font-size: 28px; font-weight: 700; color: #ffffff; margin: 24px 0 16px 0; l
 <div class="container">
 <div class="header"><h1>LUCCI RESEARCH</h1><p>ALGORITHMIC ADVANTAGE</p></div>
 <div class="content">
-<p class="label">BÀI VIẾT MỚI</p>
+<p class="label">NEW REPORT</p>
 <div style="margin:20px 0"><span class="badge">${CATEGORIES}</span></div>
 <h2>${TITLE}</h2>
 <p class="description">${DESCRIPTION}</p>
-<div style="text-align:center;margin-top:32px"><a href="${POST_URL}" class="cta">ĐỌC NGAY →</a></div>
+<div style="text-align:center;margin-top:32px"><a href="${POST_URL}" class="cta">READ NOW →</a></div>
 <hr class="divider">
-<p style="font-size:13px;color:#888888;text-align:center">Bạn nhận được email này vì đã đăng ký nhận thông báo từ Lucci Research.</p>
+<p style="font-size:13px;color:#888888;text-align:center">You are receiving this email because you subscribed to Lucci Research updates.</p>
 </div>
 <div class="footer">
 <p class="footer-text">© $(date +%Y) Lucci Research. All rights reserved.</p>
 <p class="footer-text"><a href="https://t.me/lucciresearch">Telegram</a> | <a href="https://x.com/lucciresearch">Twitter</a></p>
-<p class="footer-text" style="margin-top:16px"><a href="{{{RESEND_UNSUBSCRIBE_URL}}}" style="color:#888888;font-size:11px">Hủy đăng ký</a></p>
+<p class="footer-text" style="margin-top:16px"><a href="{{{RESEND_UNSUBSCRIBE_URL}}}" style="color:#888888;font-size:11px">Unsubscribe</a></p>
 </div>
 </div>
 </body>
@@ -85,7 +85,7 @@ EOF
 PAYLOAD=$(jq -n \
   --arg audienceId "$RESEND_SEGMENT_ID" \
   --arg from "$FROM_EMAIL" \
-  --arg subject "📊 Bài viết mới: $TITLE" \
+  --arg subject "New Lucci Research report: $TITLE" \
   --arg html "$EMAIL_HTML" \
   '{audience_id: $audienceId, from: $from, subject: $subject, html: $html}')
 

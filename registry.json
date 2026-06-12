@@ -1,5 +1,15 @@
 [
   {
+    "title": "Canton Network's $355M Funding Round: Why Wall Street Is Buying Privacy Rails",
+    "slug": "canton-network-355m-funding",
+    "description": "Digital Asset raised $355 million for Canton Network in an a16z-led equity round backed by major TradFi and crypto investors. Lucci Research explains what Canton is, why privacy-preserving settlement matters for tokenized assets, and how the company converted institutional product-market fit into one of the largest infrastructure raises of 2026.",
+    "categories": ["Project Analysis", "Market"],
+    "date": "2026-06-12",
+    "readTime": 8,
+    "isPremium": false,
+    "coverImage": "https://raw.githubusercontent.com/lucci-labs/archive/main/images/canton-network-355m-funding-banner.png"
+  },
+  {
     "title": "Morpho Deep Analysis: The Lending Network Hiding Under DeFi Apps",
     "slug": "morpho-project-deep-analysis",
     "description": "Morpho has become one of DeFi lending's strongest infrastructure bets, with billions in TVL, active loans, and embedded distribution across exchanges, fintech apps, and institutional RWA products. Lucci Research argues the protocol is real, but MORPHO remains a governance-token option on future value capture because current protocol and holder revenue are still zero.",

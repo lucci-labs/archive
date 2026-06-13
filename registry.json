@@ -1,5 +1,15 @@
 [
   {
+    "title": "Kalshi vs Polymarket: The Prediction Market Endgame",
+    "slug": "kalshi-vs-polymarket-prediction-market-future",
+    "description": "Kalshi and Polymarket now define two competing architectures for prediction markets: regulated exchange distribution versus internet-native probability liquidity. Lucci Research argues the future will be a split-stack market where Kalshi owns the U.S. regulated core, Polymarket owns the global long tail, and the biggest infrastructure value accrues to data, surveillance, and resolution layers.",
+    "categories": ["Market", "Technology"],
+    "date": "2026-06-13",
+    "readTime": 13,
+    "isPremium": false,
+    "coverImage": "https://raw.githubusercontent.com/lucci-labs/archive/main/images/kalshi-vs-polymarket-prediction-market-future-banner.png"
+  },
+  {
     "title": "Canton Network's $355M Funding Round: Why Wall Street Is Buying Privacy Rails",
     "slug": "canton-network-355m-funding",
     "description": "Digital Asset raised $355 million for Canton Network in an a16z-led equity round backed by major TradFi and crypto investors. Lucci Research explains what Canton is, why privacy-preserving settlement matters for tokenized assets, and how the company converted institutional product-market fit into one of the largest infrastructure raises of 2026.",

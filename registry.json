@@ -1,5 +1,15 @@
 [
   {
+    "title": "Hyperliquid: How It Became Crypto's Most Important Exchange",
+    "slug": "hyperliquid-cryptos-most-important-exchange",
+    "description": "Hyperliquid has evolved from a high-performance on-chain perps venue into crypto's most important exchange experiment: a CEX-grade order book, a dominant derivatives liquidity layer, a permissionless market factory, and a fee-linked token economy. Lucci Research argues the protocol matters because it controls liquidity, attention, and fee flow while turning exchange infrastructure into an on-chain network.",
+    "categories": ["Project Analysis", "Market"],
+    "date": "2026-06-15",
+    "readTime": 16,
+    "isPremium": false,
+    "coverImage": "https://raw.githubusercontent.com/lucci-labs/archive/main/images/hyperliquid-cryptos-most-important-exchange-banner.png"
+  },
+  {
     "title": "Kalshi vs Polymarket: The Prediction Market Endgame",
     "slug": "kalshi-vs-polymarket-prediction-market-future",
     "description": "Kalshi and Polymarket now define two competing architectures for prediction markets: regulated exchange distribution versus internet-native probability liquidity. Lucci Research argues the future will be a split-stack market where Kalshi owns the U.S. regulated core, Polymarket owns the global long tail, and the biggest infrastructure value accrues to data, surveillance, and resolution layers.",

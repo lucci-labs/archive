@@ -1,5 +1,15 @@
 [
   {
+    "title": "Market Update 16 June: Relief Rally, Not a Regime Turn",
+    "slug": "market-update-16-june-2026",
+    "description": "BTC has bounced from the low $60k area as oil, the dollar and inflation fears cooled together, but Lucci Research argues this is still a relief rally rather than a confirmed cycle turn. The report focuses on FOMC risk, ETF flow stabilization, ETH underperformance and the liquidity signals needed before upgrading the market.",
+    "categories": ["Market", "Weekly Outlook"],
+    "date": "2026-06-16",
+    "readTime": 10,
+    "isPremium": false,
+    "coverImage": "https://raw.githubusercontent.com/lucci-labs/archive/main/images/market-update-16-june-2026-banner.png"
+  },
+  {
     "title": "Hyperliquid: How It Became Crypto's Most Important Exchange",
     "slug": "hyperliquid-cryptos-most-important-exchange",
     "description": "Hyperliquid has evolved from a high-performance on-chain perps venue into crypto's most important exchange experiment: a CEX-grade order book, a dominant derivatives liquidity layer, a permissionless market factory, and a fee-linked token economy. Lucci Research argues the protocol matters because it controls liquidity, attention, and fee flow while turning exchange infrastructure into an on-chain network.",

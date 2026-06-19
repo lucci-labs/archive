@@ -1,5 +1,15 @@
 [
   {
+    "title": "Tempo Blockchain in Q1 2026: From Payments Thesis to Live Settlement Rail",
+    "slug": "tempo-blockchain-q1-2026-stage",
+    "description": "Tempo moved from late testnet to live mainnet in Q1 2026, with stablecoin-native gas, payment lanes, sub-second deterministic finality, and the Machine Payments Protocol. Lucci Research argues the project is now in an early production proof phase: strategically credible, technically coherent, but still unproven on real recurring enterprise payment volume.",
+    "categories": ["Project Analysis", "Technology"],
+    "date": "2026-06-19",
+    "readTime": 14,
+    "isPremium": false,
+    "coverImage": "https://raw.githubusercontent.com/lucci-labs/archive/main/images/tempo-blockchain-q1-2026-stage-banner.png"
+  },
+  {
     "title": "Everything You Need to Know Before Ethereum's Glamsterdam Upgrade",
     "slug": "everything-you-need-to-know-before-glamsterdam-upgrade",
     "description": "Ethereum's Glamsterdam upgrade is a block-production and execution-pipeline redesign, not a simple fee patch. Lucci Research explains ePBS, block-level access lists, gas/state repricing, and what engineers, investors, and financial managers should do before the H2 2026 hard fork.",

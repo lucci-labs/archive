@@ -94,34 +94,35 @@ Lucci HTMLWidget design system requirements:
 - Effects: if needed, use subtle mint glow only, e.g. `rgba(0,255,163,0.12-0.18)`; avoid glossy gradients, neon rainbow, 3D, skeuomorphic, pastel, or generic SaaS chart styles
 - Charts: use clean axes, dashed gridlines, monospace tick labels around 10-12px, mint positive bars/lines, red negative bars, dark plot background, and a source/rendered metadata strip when helpful
 
-Example:
+Skeleton:
 
 ```html
 <HTMLWidget>
-<div id="flows-widget" style="background:#0B0B0B;border:1px solid #1E1E1E;color:#D1D1D1;font-family:Inter,Arial,sans-serif;padding:28px;width:100%;box-sizing:border-box">
-  <div style="color:#FFFFFF;font-family:'Playfair Display',Georgia,serif;font-size:26px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px">BTC ETF FLOWS</div>
-  <div style="color:#888888;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px">[WEEKLY NET FLOW / USD]</div>
-  <canvas id="flows-chart" style="width:100%;height:280px"></canvas>
-  <div style="border-top:1px solid #1E1E1E;margin-top:18px;padding-top:12px;color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase">SOURCE: LUCCI RESEARCH</div>
+<div style="background:#0B0B0B;border:1px solid #1E1E1E;color:#D1D1D1;font-family:Inter,Arial,sans-serif;padding:28px;width:100%;box-sizing:border-box">
+  <style>
+    /* Optional responsive styles scoped to this widget. */
+  </style>
+
+  <div style="color:#FFFFFF;font-family:'Playfair Display',Georgia,serif;font-size:26px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px">
+    WIDGET TITLE
+  </div>
+  <div style="color:#888888;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px">
+    [CONTEXT / DATE / UNIT]
+  </div>
+
+  <!-- Build the best visual form for the data here: signal cards, flow diagram, timeline, comparison table, map, calculator, interactive model, or chart. -->
+  <div>
+    <!-- Widget content goes here. -->
+  </div>
+
+  <div style="border-top:1px solid #1E1E1E;margin-top:18px;padding-top:12px;color:#888888;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase">
+    SOURCE: SOURCE NAME / RENDERED BY LUCCI RESEARCH
+  </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Optional: load a small CDN package only if it is the best tool for this specific widget. -->
 <script>
-new Chart(document.getElementById('flows-chart'), {
-  type: 'bar',
-  data: {
-    labels: ['WEEK 1', 'WEEK 2', 'WEEK 3'],
-    datasets: [{ data: [420, -180, 260], backgroundColor: ['#00FFA3', '#FF3B5C', '#00FFA3'], borderColor: ['#00FFA3', '#FF3B5C', '#00FFA3'], borderWidth: 1 }]
-  },
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: { legend: { display: false } },
-    scales: {
-      x: { ticks: { color: '#888888', font: { family: 'monospace', size: 10 } }, grid: { color: '#1E1E1E' } },
-      y: { ticks: { color: '#888888', font: { family: 'monospace', size: 10 } }, grid: { color: '#333333', borderDash: [4, 4] } }
-    }
-  }
-});
+  // Optional interactivity or rendering logic goes here.
 </script>
 </HTMLWidget>
 ```

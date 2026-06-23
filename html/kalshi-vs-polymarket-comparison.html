@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kalshi vs Polymarket — Simple Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600;700&family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+  <style>
+    :root{--bg:#080808;--panel:#111;--line:#333;--line2:#1E1E1E;--mint:#00FFA3;--red:#FF3B5C;--txt:#fff;--body:#D1D1D1;--muted:#888;--blue:#7AA2FF;--amber:#F6C85F}
+    *{box-sizing:border-box} html,body{margin:0;width:100%;min-height:100%;background:var(--bg);color:var(--txt);font-family:Inter,system-ui,sans-serif} body{background-image:linear-gradient(var(--line2) 1px,transparent 1px),linear-gradient(90deg,var(--line2) 1px,transparent 1px);background-size:42px 42px}.dash{min-height:100vh;padding:14px;display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:auto auto 1fr auto;gap:12px}.panel,.kpi{border:1px solid var(--line);background:rgba(14,14,14,.97);padding:16px;overflow:hidden}.hero{grid-column:span 12;display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:end}.eyebrow,.label,.h,.mono{font-family:"JetBrains Mono",monospace}.eyebrow,.label{font-size:11px;color:var(--muted);letter-spacing:.12em;text-transform:uppercase}.hero h1{font-family:"Playfair Display",Georgia,serif;font-size:clamp(38px,6vw,82px);line-height:.9;margin:6px 0}.thesis{color:var(--body);font-size:clamp(15px,1.4vw,20px);line-height:1.35;margin:0;max-width:860px}.thesis b{color:var(--mint)}.date{text-align:right;color:var(--muted);font-family:"JetBrains Mono",monospace;font-size:12px}.kpi{grid-column:span 3}.val{font-family:"JetBrains Mono",monospace;color:var(--mint);font-size:clamp(28px,3.2vw,48px);font-weight:800;line-height:1;margin:8px 0}.txt{color:var(--body);font-size:13px;line-height:1.35;margin:0}.chartPanel{grid-column:span 7}.compare{grid-column:span 5;display:grid;grid-template-columns:1fr 1fr;gap:12px}.h{font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 12px}.chart{height:330px}.card{border:1px solid var(--line2);background:#090909;padding:14px}.card h3{font-family:"Playfair Display",Georgia,serif;font-size:32px;line-height:1;margin:0 0 8px}.card h3 span{color:var(--mint)}.card ul{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:10px}.card li{border-top:1px solid var(--line2);padding-top:9px;color:var(--body);font-size:13px;line-height:1.3}.card li b{font-family:"JetBrains Mono",monospace;color:#fff;font-size:11px;text-transform:uppercase;display:block;margin-bottom:3px}.bottom{grid-column:span 12;display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}.take b{color:var(--mint)}.take{color:var(--body);line-height:1.4;font-size:14px;margin:0}.sources{font-size:11px;color:var(--muted);line-height:1.35}.risk{color:var(--red)}
+    @media(max-width:850px){.dash{display:block}.panel,.kpi{margin-bottom:10px}.hero{display:block}.date{text-align:left;margin-top:12px}.chart{height:260px}.compare,.bottom{display:block}.card{margin-bottom:10px}}
+  </style>
+</head>
+<body>
+  <main class="dash">
+    <section class="panel hero">
+      <div>
+        <div class="eyebrow">Prediction markets / June 2026</div>
+        <h1>Kalshi vs Polymarket</h1>
+        <p class="thesis"><b>Simple read:</b> Kalshi is the regulated U.S. exchange play. Polymarket is the crypto-native global probability network.</p>
+      </div>
+      <div class="date">One-screen comparison<br>Lucci Research</div>
+    </section>
+
+    <section class="kpi"><div class="label">Combined Apr volume</div><div class="val">~$24B</div><p class="txt">Kalshi + Polymarket global monthly volume, per Pew/The Block.</p></section>
+    <section class="kpi"><div class="label">Kalshi valuation</div><div class="val">$22B</div><p class="txt">May 2026 Series F round led by Coatue.</p></section>
+    <section class="kpi"><div class="label">Polymarket ICE capital</div><div class="val">$1.6B+</div><p class="txt">ICE invested $1B in 2025 and $600M more in 2026.</p></section>
+    <section class="kpi"><div class="label">Biggest open risk</div><div class="val risk">Rules</div><p class="txt">Sports contracts sit between derivatives law and state gaming law.</p></section>
+
+    <section class="panel chartPanel">
+      <h2 class="h">The category inflected in late 2025</h2>
+      <div class="chart"><canvas id="volumeChart"></canvas></div>
+    </section>
+
+    <section class="panel compare">
+      <div class="card">
+        <h3><span>Kalshi</span></h3>
+        <p class="txt">Best understood as a regulated event-contract exchange.</p>
+        <ul>
+          <li><b>Edge</b>CFTC status, fiat UX, broker/institutional access.</li>
+          <li><b>Volume engine</b>U.S. sports and mainstream retail trading.</li>
+          <li><b>Main risk</b>State gaming challenges and sports-contract limits.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><span>Polymarket</span></h3>
+        <p class="txt">Best understood as a crypto-native prediction media network.</p>
+        <ul>
+          <li><b>Edge</b>Global brand, viral prices, USDC/onchain culture.</li>
+          <li><b>Volume engine</b>Politics, crypto, global events and sports.</li>
+          <li><b>Main risk</b>U.S./international split and fee sensitivity.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bottom">
+      <div class="panel"><h2 class="h">Bottom line</h2><p class="take"><b>Kalshi wins compliance.</b> <b>Polymarket wins culture.</b> The market likely supports both if regulation stays permissive.</p></div>
+      <div class="panel"><h2 class="h">Watch next</h2><p class="take">1) CFTC/state lawsuits<br>2) Polymarket US liquidity<br>3) Whether volume remains after incentives and fees normalize</p></div>
+      <div class="panel"><h2 class="h">Sources</h2><p class="sources">Pew Research Center / The Block; Kalshi May 2026 funding announcement; ICE Polymarket press releases; CFTC DCM filings; Polymarket QCEX acquisition release.</p></div>
+    </section>
+  </main>
+  <script>
+    const mint='#00FFA3', text='#D1D1D1';
+    Chart.defaults.color=text; Chart.defaults.borderColor='#333333'; Chart.defaults.font.family='JetBrains Mono, monospace';
+    new Chart(document.getElementById('volumeChart'),{
+      type:'line',
+      data:{labels:['Jul24','Oct24','Jan25','Apr25','Jul25','Sep25','Dec25','Jan26','Mar26','Apr26'],datasets:[{label:'Combined monthly volume, $B',data:[0.81,4.55,2.83,1.77,2.02,4.51,11.90,17.21,23.57,23.82],borderColor:mint,backgroundColor:'rgba(0,255,163,.12)',fill:true,tension:.3,pointRadius:3,borderWidth:2}]},
+      options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' $'+c.parsed.y.toFixed(2)+'B'}}},scales:{y:{beginAtZero:true,ticks:{callback:v=>'$'+v+'B'}},x:{grid:{display:false}}}}
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Current Crypto Market Status | Lucci Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <style>
+    :root{--bg:#0B0B0B;--panel:#121212;--panel2:#0A0A0A;--line:#1E1E1E;--line2:#333;--mint:#00FFA3;--red:#FF3B5C;--text:#fff;--body:#D1D1D1;--muted:#888}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;min-height:100vh;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:48px 48px;opacity:.22}
+    .wrap{position:relative;max-width:1480px;margin:0 auto;padding:22px;min-height:100vh;display:grid;grid-template-rows:auto auto 1fr auto;gap:14px}
+    header{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;border:1px solid var(--line2);background:#080808;padding:18px 20px}
+    h1{font-family:"Playfair Display",Georgia,serif;font-size:clamp(32px,4vw,62px);line-height:.92;margin:0 0 10px;letter-spacing:-1.5px}.thesis{font-size:16px;line-height:1.35;color:var(--body);max-width:850px}.meta{font-family:"JetBrains Mono",monospace;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em;display:flex;gap:8px;flex-wrap:wrap;align-content:start;justify-content:flex-end}.tag{border:1px solid var(--line2);padding:6px 8px;color:var(--mint);background:#0A0A0A}.time{color:var(--muted);border-color:var(--line)}
+    .kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.kpi{border:1px solid var(--line);background:var(--panel);padding:12px;min-height:92px}.label{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.value{font-family:"JetBrains Mono",monospace;font-size:26px;font-weight:700;margin:9px 0 4px}.delta{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--body)}.neg{color:var(--red)}.pos{color:var(--mint)}
+    main{display:grid;grid-template-columns:1.1fr 1fr .8fr;gap:12px;min-height:0}.panel{border:1px solid var(--line);background:rgba(18,18,18,.96);padding:14px;min-height:0}.panel h2{font-family:"Playfair Display",Georgia,serif;margin:0 0 8px;font-size:24px}.sub{font-size:12px;color:var(--muted);line-height:1.35;margin:0 0 12px}.chartBox{height:310px;position:relative}.stack{display:grid;grid-template-rows:1fr 1fr;gap:12px}.mini{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}.note{border-left:2px solid var(--mint);padding:8px 10px;background:#0A0A0A;color:var(--body);font-size:12px;line-height:1.35}.risk{display:grid;gap:8px}.riskrow{display:grid;grid-template-columns:92px 1fr 48px;align-items:center;gap:8px;font-family:"JetBrains Mono",monospace;font-size:12px}.bar{height:8px;background:#1E1E1E;border:1px solid #333}.fill{height:100%;background:var(--red)}.fill.mint{background:var(--mint)}.score{text-align:right;color:var(--body)}
+    .levels{display:grid;grid-template-columns:1fr;gap:8px}.level{border:1px solid var(--line);padding:9px;background:#0A0A0A;display:grid;grid-template-columns:68px 1fr;gap:8px;align-items:center}.price{font-family:"JetBrains Mono",monospace;font-weight:700;color:var(--mint)}.level p{margin:0;color:var(--body);font-size:12px;line-height:1.3}.timeline{display:grid;gap:7px;margin-top:8px}.event{display:grid;grid-template-columns:76px 1fr;gap:9px;align-items:start}.date{font-family:"JetBrains Mono",monospace;color:var(--muted);font-size:11px}.event div:last-child{font-size:12px;color:var(--body);line-height:1.3;border-left:1px solid var(--line2);padding-left:9px}.sources{border:1px solid var(--line);background:#080808;padding:10px 12px;color:var(--muted);font-family:"JetBrains Mono",monospace;font-size:11px;line-height:1.45}.sources b{color:var(--text)}
+    canvas{width:100%!important;height:100%!important} @media(max-width:1050px){.wrap{padding:14px}header,main{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}.meta{justify-content:flex-start}.stack{grid-template-rows:auto}.chartBox{height:260px}} @media(max-width:560px){.kpis{grid-template-columns:1fr}.mini{grid-template-columns:1fr}.value{font-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Crypto Market Status</h1>
+        <div class="thesis">Risk is defensive: majors are testing support after a leverage flush, ETF redemptions are still draining institutional demand, while stablecoin liquidity remains large but no longer expanding.</div>
+      </div>
+      <div class="meta"><span class="tag time">Snapshot: 25 Jun 2026</span><span class="tag">Performance</span><span class="tag">Cashflow</span><span class="tag">Technical</span></div>
+    </header>
+
+    <section class="kpis">
+      <div class="kpi"><div class="label">Global crypto cap</div><div class="value">$2.12T</div><div class="delta neg">-1.6% 24h · CMC</div></div>
+      <div class="kpi"><div class="label">24h volume</div><div class="value">$94B</div><div class="delta pos">+28.5% · stress liquidity</div></div>
+      <div class="kpi"><div class="label">BTC dominance</div><div class="value">58.3%</div><div class="delta">ETH 9.4% · alt beta weak</div></div>
+      <div class="kpi"><div class="label">Fear & Greed</div><div class="value neg">18</div><div class="delta neg">Extreme fear</div></div>
+      <div class="kpi"><div class="label">BTC spot range</div><div class="value">$59.2K–$62.9K</div><div class="delta">Bounce after liquidation low</div></div>
+    </section>
+
+    <main>
+      <section class="panel">
+        <h2>Majors: bounce is tactical, not confirmed</h2>
+        <p class="sub">BTC, ETH and SOL are still negative on the week despite intraday stabilization. Leadership remains concentrated in Bitcoin; higher-beta assets are not confirming a broad risk-on turn.</p>
+        <div class="chartBox"><canvas id="perfChart"></canvas></div>
+        <div class="mini">
+          <div class="note"><b>Market read:</b> BTC held the $59K area, but a sustained close above $65K is needed to repair momentum.</div>
+          <div class="note"><b>Alt read:</b> ETH near $1.65K and SOL near $69 show weak beta; rallies remain vulnerable to ETF and derivatives pressure.</div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Cashflow: liquidity impulse is negative</h2>
+        <p class="sub">The biggest pressure point is not spot volume; it is redemptions. U.S. spot BTC ETFs are in a six-week outflow streak, while stablecoin supply is flat-to-down over 30 days.</p>
+        <div class="chartBox"><canvas id="flowChart"></canvas></div>
+        <div class="mini">
+          <div class="note"><b>ETF channel:</b> reported BTC ETF withdrawals exceed $4.4B since mid-May, with June 23 outflows of $113.8M.</div>
+          <div class="note"><b>Stablecoin channel:</b> DefiLlama shows $315B supply, +0.03% 1d but -2.15% 30d; dry powder is high, momentum is not.</div>
+        </div>
+      </section>
+
+      <section class="stack">
+        <div class="panel">
+          <h2>Technical map</h2>
+          <p class="sub">Bears control below resistance, but extreme fear creates rebound optionality if macro data softens.</p>
+          <div class="levels">
+            <div class="level"><span class="price">$58K</span><p>Coinglass cluster: ~$1.6B leveraged longs below this zone; break risks acceleration.</p></div>
+            <div class="level"><span class="price">$60K</span><p>Psychological support. CoinDesk notes loss opens late-2024 range risk.</p></div>
+            <div class="level"><span class="price">$65K</span><p>Near Monday peak / first momentum repair level.</p></div>
+          </div>
+          <div class="risk" style="margin-top:12px">
+            <div class="riskrow"><span>Leverage</span><span class="bar"><span class="fill" style="width:86%"></span></span><span class="score">High</span></div>
+            <div class="riskrow"><span>ETF flows</span><span class="bar"><span class="fill" style="width:78%"></span></span><span class="score">Bear</span></div>
+            <div class="riskrow"><span>Sentiment</span><span class="bar"><span class="fill mint" style="width:18%"></span></span><span class="score">18/100</span></div>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>Near-term chain</h2>
+          <div class="timeline">
+            <div class="event"><span class="date">Mid-May</span><div>BTC ETF outflow streak begins; cumulative withdrawals reported above $4.4B.</div></div>
+            <div class="event"><span class="date">23 Jun</span><div>BTC ETFs -$113.8M; ETH ETFs -$82.4M, per Farside-cited flow reports.</div></div>
+            <div class="event"><span class="date">24 Jun</span><div>Deribit put skew widens to 10.9 vol points; ETH OI rises as spot falls.</div></div>
+            <div class="event"><span class="date">25 Jun</span><div>BTC taps $59,175; nearly $1B crypto futures liquidated, including ~$430M BTC longs.</div></div>
+            <div class="event"><span class="date">Next</span><div>PCE / Fed path and quarter-end options expiry decide whether this is capitulation or continuation.</div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="sources"><b>Sources:</b> CoinMarketCap market overview; CoinGecko live asset pages; Farside Investors ETF flow tables and cited summaries; CoinDesk market reports on June 24–25, 2026; DefiLlama stablecoin dashboard; Alternative.me / CMC Fear & Greed references. Figures are latest available web snapshots and may update intraday.</div>
+  </div>
+
+  <script>
+    const grid = '#333333';
+    const tick = '#888888';
+    const red = '#FF3B5C';
+
+    Chart.defaults.color = tick;
+    Chart.defaults.font.family = 'JetBrains Mono, monospace';
+    Chart.defaults.borderColor = grid;
+
+    new Chart(document.getElementById('perfChart'), {
+      type: 'bar',
+      data: {
+        labels: ['BTC', 'ETH', 'SOL', 'XRP'],
+        datasets: [
+          { label: '24h %', data: [-1.6, -1.3, -0.5, -1.4], backgroundColor: red, borderColor: red, borderWidth: 1 },
+          { label: '7d %', data: [-3.5, -4.8, -2.8, -6.9], backgroundColor: 'rgba(255,59,92,.35)', borderColor: red, borderWidth: 1 }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { grid: { display: false } },
+          y: { ticks: { callback: function(value) { return value + '%'; } }, title: { display: true, text: 'price change' } }
+        },
+        plugins: {
+          legend: { position: 'bottom', labels: { boxWidth: 10 } },
+          tooltip: { callbacks: { label: function(ctx) { return ctx.dataset.label + ': ' + ctx.raw + '%'; } } }
+        }
+      }
+    });
+
+    new Chart(document.getElementById('flowChart'), {
+      type: 'bar',
+      data: {
+        labels: [['BTC ETFs', '6wk'], ['Stablecoins', '30d'], ['BTC ETFs', 'Jun23'], ['ETH ETFs', 'Jun23']],
+        datasets: [{
+          label: 'USD bn liquidity impulse',
+          data: [-4.4, -6.8, -0.114, -0.082],
+          backgroundColor: [red, red, 'rgba(255,59,92,.65)', 'rgba(255,59,92,.65)'],
+          borderColor: red,
+          borderWidth: 1
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { ticks: { callback: function(value) { return '$' + value + 'B'; } } },
+          y: { grid: { display: false } }
+        },
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: function(ctx) { return ' ' + ctx.raw + ' USD bn'; } } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

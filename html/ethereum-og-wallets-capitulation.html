@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ethereum OG Wallets Capitulation | Lucci Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0B0B0B;--panel:#121212;--panel2:#0A0A0A;--line:#1E1E1E;--line2:#333;--text:#fff;--body:#D1D1D1;--muted:#888;--mint:#00FFA3;--red:#FF3B5C;--amber:#FFD166}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;min-height:100vh;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:46px 46px;opacity:.22}
+    .wrap{position:relative;z-index:1;min-height:100vh;padding:22px;display:grid;grid-template-rows:auto auto 1fr auto;gap:14px;max-width:1440px;margin:0 auto}
+    header{border:1px solid var(--line);background:#080808;padding:18px 20px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end}
+    h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(34px,4.5vw,72px);line-height:.9;margin:0;letter-spacing:-.04em}.thesis{max-width:840px;color:var(--body);font-size:15px;line-height:1.35;margin-top:10px}.meta{text-align:right;font-family:'JetBrains Mono',monospace;color:var(--muted);font-size:12px;line-height:1.8}.tag{display:inline-block;border:1px solid var(--line2);padding:3px 7px;margin-left:5px;color:var(--mint);text-transform:uppercase}
+    .kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.kpi{border:1px solid var(--line);background:var(--panel);padding:14px}.label{font-family:'JetBrains Mono',monospace;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.value{font-family:'JetBrains Mono',monospace;font-size:clamp(21px,2vw,34px);font-weight:700;margin-top:8px}.sub{font-size:12px;color:var(--body);margin-top:6px}.red{color:var(--red)}.mint{color:var(--mint)}.amber{color:var(--amber)}
+    main{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;min-height:0}.panel{border:1px solid var(--line);background:rgba(18,18,18,.96);padding:16px;min-height:0}.panel h2{font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.1em;font-size:13px;margin:0 0 12px}.caption{color:var(--muted);font-size:12px;line-height:1.35}.chart{height:310px;position:relative}.barrow{display:grid;grid-template-columns:95px 1fr 88px;gap:12px;align-items:center;margin:19px 0}.barlabel{font-family:'JetBrains Mono',monospace;color:var(--body);font-size:12px}.track{height:36px;background:#080808;border:1px solid var(--line);position:relative}.fill{height:100%;background:var(--mint)}.fill.redfill{background:var(--red)}.fill.amberfill{background:var(--amber)}.barval{font-family:'JetBrains Mono',monospace;font-weight:700;text-align:right}.note{border-left:3px solid var(--mint);padding:10px 12px;background:#0A0A0A;color:var(--body);font-size:13px;line-height:1.4;margin-top:8px}
+    .side{display:grid;grid-template-rows:1fr 1fr;gap:14px;min-height:0}.donutbox{display:grid;grid-template-columns:180px 1fr;gap:14px;align-items:center}.donut{width:170px;height:170px;border-radius:50%;background:conic-gradient(var(--red) 0 89.4%, #202020 89.4% 100%);position:relative;border:1px solid var(--line2)}.donut:after{content:"89.4%\A SOLD";white-space:pre;position:absolute;inset:34px;border-radius:50%;background:var(--panel);display:grid;place-items:center;text-align:center;font-family:'JetBrains Mono',monospace;font-weight:800;color:var(--red);font-size:20px}.legend{display:grid;gap:10px}.leg{display:grid;grid-template-columns:12px 1fr auto;gap:9px;align-items:center;font-size:13px;color:var(--body)}.sw{width:12px;height:12px;background:var(--red)}.sw.dark{background:#202020;border:1px solid var(--line2)}
+    .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:8px}.event{border-top:2px solid var(--line2);padding-top:10px;position:relative}.event:before{content:"";position:absolute;top:-6px;left:0;width:10px;height:10px;background:var(--mint)}.date{font-family:'JetBrains Mono',monospace;color:var(--mint);font-size:12px;font-weight:700}.event p{margin:7px 0 0;color:var(--body);font-size:12px;line-height:1.35}.riskgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}.risk{border:1px solid var(--line);background:#0A0A0A;padding:10px}.risk b{font-family:'JetBrains Mono',monospace;font-size:12px}.risk p{margin:6px 0 0;color:var(--muted);font-size:12px;line-height:1.3}
+    footer{border:1px solid var(--line);background:#080808;padding:10px 14px;display:flex;justify-content:space-between;gap:15px;color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px} a{color:var(--mint);text-decoration:none}.brand{color:var(--text);font-weight:700}
+    @media(max-width:980px){.wrap{padding:12px}header{grid-template-columns:1fr}.meta{text-align:left}.kpis{grid-template-columns:repeat(2,1fr)}main{grid-template-columns:1fr}.chart{height:auto}.side{grid-template-rows:auto}.donutbox{grid-template-columns:1fr}.timeline{grid-template-columns:repeat(2,1fr)}footer{flex-direction:column}.kpi:last-child{grid-column:span 2}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div><h1>Ethereum OG Wallets Capitulate</h1><div class="thesis">Four dormant ETH wallets held through two major bull markets, then sold nearly 90% of their stack into a weak tape near $1,560 — crystallizing profits far below peak mark-to-market value.</div></div>
+      <div class="meta">JUN 26–27, 2026<br><span class="tag">On-chain</span><span class="tag">ETH</span><span class="tag">Whale Flow</span></div>
+    </header>
+
+    <section class="kpis">
+      <div class="kpi"><div class="label">Original stack</div><div class="value">37,602 ETH</div><div class="sub">Received ~8 years ago at ~$830</div></div>
+      <div class="kpi"><div class="label">Sold in 4 hours</div><div class="value red">33,623 ETH</div><div class="sub">~$52.46M at ~$1,560</div></div>
+      <div class="kpi"><div class="label">Stack liquidated</div><div class="value red">89.4%</div><div class="sub">~3,979 ETH remains</div></div>
+      <div class="kpi"><div class="label">Current profit</div><div class="value mint">~$27.4M</div><div class="sub">Cost basis ≈ $31.21M</div></div>
+      <div class="kpi"><div class="label">Missed peak profit</div><div class="value amber">~$155M</div><div class="sub">At ETH ATH ~$4,946</div></div>
+    </section>
+
+    <main>
+      <section class="panel">
+        <h2>Profit compression: holding won, timing lost</h2>
+        <div class="chart" aria-label="Bar chart of value and profit scenarios">
+          <div class="barrow"><div class="barlabel">Cost basis</div><div class="track"><div class="fill" style="width:16.8%"></div></div><div class="barval">$31.2M</div></div>
+          <div class="barrow"><div class="barlabel">2021 peak</div><div class="track"><div class="fill amberfill" style="width:98.6%"></div></div><div class="barval">$183.4M</div></div>
+          <div class="barrow"><div class="barlabel">2025 ATH</div><div class="track"><div class="fill amberfill" style="width:100%"></div></div><div class="barval">$186.0M</div></div>
+          <div class="barrow"><div class="barlabel">Sale tape</div><div class="track"><div class="fill redfill" style="width:31.5%"></div></div><div class="barval">$58.7M</div></div>
+        </div>
+        <div class="note"><b>Read-through:</b> The wallets still exited in profit, but the realized/remaining value is roughly one-third of the peak portfolio value. In market terms, this is less about one whale and more about old supply finally accepting lower liquidity.</div>
+      </section>
+
+      <div class="side">
+        <section class="panel">
+          <h2>Exit mechanics</h2>
+          <div class="donutbox">
+            <div class="donut"></div>
+            <div class="legend">
+              <div class="leg"><span class="sw"></span><span>ETH sold</span><b>33,623</b></div>
+              <div class="leg"><span class="sw dark"></span><span>ETH remaining</span><b>3,979</b></div>
+              <div class="caption">The sale occurred after eight years of dormancy. Reported wallets: 0x71BB…412f, 0x92a8…e49D, 0x6C74…327, 0xffd7…BeE5.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2>Timeline + market risks</h2>
+          <div class="timeline">
+            <div class="event"><div class="date">~2018</div><p>37,602 ETH received near $830 cost basis.</p></div>
+            <div class="event"><div class="date">NOV 2021</div><p>ETH near $4,878; unrealized profit >$150M.</p></div>
+            <div class="event"><div class="date">AUG 2025</div><p>ETH makes new ATH around $4,946.</p></div>
+            <div class="event"><div class="date">JUN 2026</div><p>33,623 ETH sold near $1,560 in four hours.</p></div>
+          </div>
+          <div class="riskgrid">
+            <div class="risk"><b class="red">Supply risk</b><p>Dormant cohorts can reprice thin books fast.</p></div>
+            <div class="risk"><b class="mint">Counterpoint</b><p>Exchange ETH supply and staking can offset spot pressure.</p></div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div><span class="brand">LUCCI RESEARCH</span> · Data: on-chain analyst report via X, Arkham address references; ETH ATH via CoinGecko/Coinbase/The Block; market price cross-check via Yahoo/Twelve Data.</div>
+      <div>Confirmed: wallet-size/sale claim from source post · Uncertain: wallet owner identity and execution venue.</div>
+    </footer>
+  </div>
+</body>
+</html>
